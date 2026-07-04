@@ -1,0 +1,9 @@
+{
+  "divisa": "EUR",
+  "usd_eur": 0.92,
+  "uso_mensual": [
+    { "model": "anthropic/claude-sonnet-4.6", "mtok_in": 12, "mtok_out": 3 },
+    { "model": "anthropic/claude-haiku-4.5",  "mtok_in": 40, "mtok_out": 8 },
+    { "model": "acme/sube-pro",               "mtok_in": 5,  "mtok_out": 2 }
+  ]
+}
