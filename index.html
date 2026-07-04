@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FARO — Vigilante del oceano LLM</title>
+<meta name="description" content="FARO vigila cada dia el precio de 340+ modelos de IA y te dice que significa cada cambio para tu bolsillo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --carbon:#06060f;
+    --carbon-2:#0d0d1a;
+    --warm:#F0EDE6;
+    --warm-dim:#a9a69d;
+    --gold:#C9A84C;
+    --beam:#F2A93B;
+    --beam-dim:rgba(242,169,59,0.16);
+    --up:#e2664a;
+    --down:#6fbf8b;
+    --font-display:"Newsreader", Georgia, serif;
+    --font-body:"Newsreader", Georgia, serif;
+    --font-mono:"IBM Plex Mono", ui-monospace, monospace;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--carbon);
+    color:var(--warm);
+    font-family:var(--font-body);
+    line-height:1.5;
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important;}
+  }
+  a{color:var(--beam);}
+  .wrap{max-width:920px; margin:0 auto; padding:0 24px;}
+  .rule{border:none; border-top:1px solid rgba(201,168,76,0.35); margin:0;}
+
+  /* ---------- HERO / mar de puntos ---------- */
+  .hero{position:relative; padding:96px 0 64px; overflow:hidden;}
+  #sea{position:absolute; inset:0; width:100%; height:100%; display:block;}
+  .hero-content{position:relative; z-index:2; text-align:center;}
+  .eyebrow{
+    font-family:var(--font-mono); font-size:12px; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--beam); margin:0 0 18px;
+  }
+  h1{
+    font-family:var(--font-display); font-weight:500; font-size:clamp(40px,7vw,76px);
+    margin:0 0 20px; letter-spacing:-0.01em;
+  }
+  .lede{
+    font-size:clamp(17px,2vw,20px); color:var(--warm-dim); max-width:560px;
+    margin:0 auto 36px; font-style:italic;
+  }
+  .cta-row{display:flex; gap:14px; justify-content:center; flex-wrap:wrap;}
+  .btn{
+    font-family:var(--font-mono); font-size:13px; letter-spacing:0.03em;
+    padding:13px 22px; border-radius:2px; text-decoration:none; cursor:pointer;
+    display:inline-block; border:1px solid transparent;
+  }
+  .btn-beam{background:var(--beam); color:var(--carbon); font-weight:500;}
+  .btn-ghost{border-color:rgba(240,237,230,0.3); color:var(--warm); background:transparent;}
+  .btn-ghost:hover{border-color:var(--beam); color:var(--beam);}
+
+  /* ---------- secciones ---------- */
+  section{padding:64px 0;}
+  .kicker{
+    font-family:var(--font-mono); font-size:12px; letter-spacing:0.12em;
+    text-transform:uppercase; color:var(--gold); margin:0 0 8px;
+  }
+  h2{font-family:var(--font-display); font-weight:500; font-size:clamp(26px,4vw,36px); margin:0 0 28px;}
+
+  /* ---------- calculadora ---------- */
+  .calc{
+    background:var(--carbon-2); border:1px solid rgba(201,168,76,0.25);
+    border-radius:2px; padding:32px;
+  }
+  .calc-row{display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; margin-bottom:16px;}
+  @media (max-width:640px){.calc-row{grid-template-columns:1fr;}}
+  label{
+    display:block; font-family:var(--font-mono); font-size:11px; letter-spacing:0.06em;
+    text-transform:uppercase; color:var(--warm-dim); margin-bottom:6px;
+  }
+  select, input{
+    width:100%; background:var(--carbon); border:1px solid rgba(240,237,230,0.25);
+    color:var(--warm); font-family:var(--font-mono); font-size:14px; padding:10px 12px;
+    border-radius:2px;
+  }
+  select:focus, input:focus{outline:2px solid var(--beam); outline-offset:1px;}
+  .calc-result{
+    margin-top:24px; padding-top:24px; border-top:1px solid rgba(201,168,76,0.25);
+    font-family:var(--font-mono); font-size:14px;
+  }
+  .calc-verdict{font-family:var(--font-display); font-style:italic; font-size:20px; color:var(--beam); margin:10px 0 0;}
+  .calc-line{display:flex; justify-content:space-between; padding:4px 0; color:var(--warm-dim);}
+  .calc-line strong{color:var(--warm); font-weight:500;}
+
+  /* ---------- feed ---------- */
+  .feed-item{
+    display:grid; grid-template-columns:100px 1fr auto; gap:16px; align-items:baseline;
+    padding:14px 0; border-bottom:1px solid rgba(240,237,230,0.1);
+    font-family:var(--font-mono); font-size:13px;
+  }
+  @media (max-width:640px){.feed-item{grid-template-columns:1fr; gap:4px;}}
+  .feed-date{color:var(--warm-dim);}
+  .feed-model{color:var(--warm);}
+  .tag{padding:2px 8px; border-radius:999px; font-size:11px;}
+  .tag-up{background:rgba(226,102,74,0.15); color:var(--up);}
+  .tag-down{background:rgba(111,191,139,0.15); color:var(--down);}
+  .tag-new{background:var(--beam-dim); color:var(--beam);}
+  .feed-note{font-family:var(--font-body); font-style:italic; color:var(--warm-dim); font-size:13px; margin:20px 0 0;}
+
+  /* ---------- como funciona ---------- */
+  .steps{display:grid; grid-template-columns:repeat(3,1fr); gap:28px;}
+  @media (max-width:720px){.steps{grid-template-columns:1fr;}}
+  .step-label{font-family:var(--font-mono); font-size:12px; color:var(--gold); margin:0 0 8px;}
+  .step h3{font-family:var(--font-display); font-weight:500; font-size:19px; margin:0 0 8px;}
+  .step p{color:var(--warm-dim); font-size:14px; margin:0;}
+
+  /* ---------- footer ---------- */
+  footer{padding:48px 0 64px; text-align:center;}
+  footer p{font-family:var(--font-mono); font-size:12px; color:var(--warm-dim);}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <canvas id="sea" aria-hidden="true"></canvas>
+  <div class="wrap hero-content">
+    <p class="eyebrow">Strange Loop Factory</p>
+    <h1>FARO</h1>
+    <p class="lede">No compara modelos. Vigila el oceano de precios de la IA cada dia y te avisa solo cuando algo te afecta a ti.</p>
+    <div class="cta-row">
+      <a class="btn btn-beam" href="#calculadora">Calcula tu gasto real</a>
+      <a class="btn btn-ghost" href="#feed">Ver ultimos movimientos</a>
+    </div>
+  </div>
+</div>
+
+<hr class="rule">
+
+<section id="calculadora">
+  <div class="wrap">
+    <p class="kicker">La pregunta que nadie audita</p>
+    <h2>¿Suscripcion o API?</h2>
+    <div class="calc">
+      <div class="calc-row">
+        <div>
+          <label for="modelo">Modelo principal</label>
+          <select id="modelo">
+            <option value="sonnet" data-in="3" data-out="15">Claude Sonnet 5</option>
+            <option value="opus" data-in="15" data-out="75">Claude Opus 4.8</option>
+            <option value="gpt54" data-in="3" data-out="12">GPT-5.4</option>
+            <option value="gemini" data-in="1.25" data-out="10">Gemini 3 Pro</option>
+          </select>
+        </div>
+        <div>
+          <label for="min">Millones de tokens entrada / mes</label>
+          <input id="min" type="number" min="0" step="0.5" value="8">
+        </div>
+        <div>
+          <label for="mout">Millones de tokens salida / mes</label>
+          <input id="mout" type="number" min="0" step="0.5" value="3">
+        </div>
+      </div>
+      <div class="calc-result">
+        <div class="calc-line"><span>Coste estimado por API</span><strong id="r-api">—</strong></div>
+        <div class="calc-line"><span>Suscripcion equivalente (plan Pro tipico)</span><strong id="r-sub">20,00 &euro;/mes</strong></div>
+        <p class="calc-verdict" id="r-verdict">Ajusta los valores para ver el veredicto.</p>
+      </div>
+    </div>
+    <p class="feed-note">Precios de referencia del catalogo publico, actualizados a diario. No incluye limites de uso ni caracteristicas de cada plan.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section id="feed">
+  <div class="wrap">
+    <p class="kicker">Vigilancia diaria</p>
+    <h2>Ultimos movimientos del oceano</h2>
+
+    <div class="feed-item">
+      <span class="feed-date">2026-07-04</span>
+      <span class="feed-model">Snapshot base — 340 modelos vigilados</span>
+      <span class="tag tag-new">inicio</span>
+    </div>
+    <div class="feed-item">
+      <span class="feed-date">—</span>
+      <span class="feed-model">Aqui aparecera cada subida, bajada, lanzamiento o retirada real, en cuanto FARO complete su segundo ciclo</span>
+      <span></span>
+    </div>
+
+    <p class="feed-note">El feed completo, con fecha y variacion exacta, vive en el repositorio publico de FARO.</p>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Como funciona</p>
+    <h2>Tres pasos, cero friccion</h2>
+    <div class="steps">
+      <div class="step">
+        <p class="step-label">01</p>
+        <h3>Vigila</h3>
+        <p>Cada dia a las 06:00 UTC, FARO fotografia el precio de 340+ modelos de todos los proveedores relevantes.</p>
+      </div>
+      <div class="step">
+        <p class="step-label">02</p>
+        <h3>Compara</h3>
+        <p>Detecta subidas, bajadas, lanzamientos y retiradas frente al dia anterior. El historial completo queda abierto y es publico.</p>
+      </div>
+      <div class="step">
+        <p class="step-label">03</p>
+        <h3>Te avisa</h3>
+        <p>Solo te llega lo que te afecta a ti, traducido a tu factura mensual real, no a un ranking generico.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>FARO — un proyecto de Strange Loop Factory</p>
+</footer>
+
+<script>
+// ---------- Mar de puntos + haz de faro (elemento de firma) ----------
+(function(){
+  var canvas = document.getElementById('sea');
+  var ctx = canvas.getContext('2d');
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var dots = [], W, H, beamAngle = 0;
+
+  function resize(){
+    W = canvas.width = canvas.offsetWidth * devicePixelRatio;
+    H = canvas.height = canvas.offsetHeight * devicePixelRatio;
+  }
+
+  function seed(){
+    dots = [];
+    var count = Math.floor((W * H) / 26000);
+    for (var i = 0; i < count; i++){
+      dots.push({
+        x: Math.random() * W,
+        y: Math.random() * H,
+        r: 1 + Math.random() * 1.6,
+        base: 0.12 + Math.random() * 0.18
+      });
+    }
+  }
+
+  function draw(){
+    ctx.clearRect(0, 0, W, H);
+    var cx = W / 2, cy = H * 0.15;
+    beamAngle += reduced ? 0 : 0.006;
+    var bx = Math.cos(beamAngle) * W * 0.6;
+
+    for (var i = 0; i < dots.length; i++){
+      var d = dots[i];
+      var dist = Math.abs(d.x - (cx + bx));
+      var lit = Math.max(0, 1 - dist / 180);
+      var alpha = d.base + lit * 0.75;
+      ctx.beginPath();
+      ctx.arc(d.x, d.y, d.r + lit * 1.2, 0, Math.PI * 2);
+      ctx.fillStyle = lit > 0.35
+        ? 'rgba(242,169,59,' + alpha.toFixed(2) + ')'
+        : 'rgba(240,237,230,' + alpha.toFixed(2) + ')';
+      ctx.fill();
+    }
+    if (!reduced) requestAnimationFrame(draw);
+  }
+
+  window.addEventListener('resize', function(){ resize(); seed(); if(reduced) draw(); });
+  resize(); seed(); draw();
+})();
+
+// ---------- Calculadora suscripcion vs API ----------
+(function(){
+  var sel = document.getElementById('modelo');
+  var min = document.getElementById('min');
+  var mout = document.getElementById('mout');
+  var rApi = document.getElementById('r-api');
+  var rVerdict = document.getElementById('r-verdict');
+  var SUB_EUR = 20; // plan Pro tipico de referencia
+
+  function fmt(v){
+    return v.toLocaleString('es-ES', {minimumFractionDigits:2, maximumFractionDigits:2}) + ' \u20ac/mes';
+  }
+
+  function calc(){
+    var opt = sel.options[sel.selectedIndex];
+    var pin = parseFloat(opt.getAttribute('data-in'));
+    var pout = parseFloat(opt.getAttribute('data-out'));
+    var i = parseFloat(min.value) || 0;
+    var o = parseFloat(mout.value) || 0;
+    var usd = i * pin + o * pout;
+    var eur = usd * 0.92;
+    rApi.textContent = fmt(eur);
+    var diff = eur - SUB_EUR;
+    if (diff > 0.5){
+      rVerdict.textContent = 'Con este ritmo, la suscripcion te ahorra ' + fmt(diff).replace('/mes','') + ' al mes.';
+    } else if (diff < -0.5){
+      rVerdict.textContent = 'Con este ritmo, pagar por API te ahorra ' + fmt(Math.abs(diff)).replace('/mes','') + ' al mes.';
+    } else {
+      rVerdict.textContent = 'Empatan. La decision es de comodidad, no de precio.';
+    }
+  }
+
+  [sel, min, mout].forEach(function(el){ el.addEventListener('input', calc); });
+  calc();
+})();
+</script>
+</body>
+</html>
