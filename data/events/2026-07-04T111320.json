@@ -1,0 +1,42 @@
+{
+ "ts": "2026-07-04T111320",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.085,
+   "new": 0.08,
+   "pct": -5.88
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.4,
+   "new": 0.45,
+   "pct": 12.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.93,
+   "new": 0.84,
+   "pct": -9.68
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 3.0,
+   "new": 2.64,
+   "pct": -12.0
+  }
+ ],
+ "impacto": null
+}
