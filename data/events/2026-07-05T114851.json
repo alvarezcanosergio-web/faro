@@ -1,0 +1,24 @@
+{
+ "ts": "2026-07-05T114851",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.84,
+   "new": 0.686,
+   "pct": -18.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.64,
+   "new": 2.156,
+   "pct": -18.33
+  }
+ ],
+ "impacto": null
+}
