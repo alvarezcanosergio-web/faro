@@ -1,0 +1,58 @@
+{
+ "ts": "2026-07-06T171839",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "in": 0.14,
+   "out": 0.58,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "tencent/hy3:free",
+   "name": "Tencent: Hy3 (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.0,
+   "pct": -100.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "out",
+   "old": 0.1,
+   "new": 0.0,
+   "pct": -100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.686,
+   "new": 0.9086,
+   "pct": 32.45
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.156,
+   "new": 2.8556,
+   "pct": 32.45
+  }
+ ],
+ "impacto": null
+}
