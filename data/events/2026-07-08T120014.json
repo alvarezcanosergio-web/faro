@@ -1,0 +1,47 @@
+{
+ "ts": "2026-07-08T120014",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "aion-labs/aion-3.0",
+   "name": "AionLabs: Aion-3.0",
+   "in": 3.0,
+   "out": 6.0,
+   "ctx": 131072
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "aion-labs/aion-3.0-mini",
+   "name": "AionLabs: Aion-3.0-Mini",
+   "in": 0.7,
+   "out": 1.4,
+   "ctx": 131072
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "thedrummer/rocinante-12b",
+   "name": "TheDrummer: Rocinante 12B",
+   "old": 32768,
+   "new": 65536
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.9,
+   "new": 0.93,
+   "pct": 3.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.86,
+   "new": 3.0,
+   "pct": 4.9
+  }
+ ],
+ "impacto": null
+}
