@@ -1,0 +1,72 @@
+{
+ "ts": "2026-07-09T095621",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "x-ai/grok-4.5",
+   "name": "xAI: Grok 4.5",
+   "in": 2.0,
+   "out": 6.0,
+   "ctx": 500000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "~x-ai/grok-latest",
+   "name": "xAI: Grok Latest",
+   "in": 2.0,
+   "out": 6.0,
+   "ctx": 500000
+  },
+  {
+   "type": "REMOVED",
+   "model": "liquid/lfm-2-24b-a2b",
+   "name": "LiquidAI: LFM2-24B-A2B",
+   "in": 0.03,
+   "out": 0.12
+  },
+  {
+   "type": "REMOVED",
+   "model": "switchpoint/router",
+   "name": "Switchpoint Router",
+   "in": 0.85,
+   "out": 3.4
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.66,
+   "new": 0.65,
+   "pct": -1.52
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.14,
+   "pct": -30.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "side": "out",
+   "old": 0.8,
+   "new": 0.58,
+   "pct": -27.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "in",
+   "old": 0.66,
+   "new": 0.65,
+   "pct": -1.52
+  }
+ ],
+ "impacto": null
+}
