@@ -1,40 +1,17 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-07-10T094712 UTC** | Modelos vigilados: **347**
+Ultima vigilancia: **2026-07-11T080525 UTC** | Modelos vigilados: **345**
 
-**Resumen:** 8 subidas | 5 bajadas | 7 lanzamientos | 3 retiradas | 0 cambios de contexto
-
-## Subidas de precio
-
-- **`minimax/minimax-m2.5`** (out): $0.48/M -> $0.90/M (**+87.5%**)
-- **`minimax/minimax-m2.7`** (in): $0.18/M -> $0.24/M (**+33.3%**)
-- **`minimax/minimax-m2.7`** (out): $0.72/M -> $0.96/M (**+33.3%**)
-- **`minimax/minimax-m2.5`** (in): $0.12/M -> $0.15/M (**+25.0%**)
-- **`openai/gpt-oss-120b`** (in): $0.03/M -> $0.04/M (**+20.0%**)
-- **`openai/gpt-oss-120b`** (out): $0.15/M -> $0.18/M (**+20.0%**)
-- **`moonshotai/kimi-k2.6`** (in): $0.65/M -> $0.66/M (**+1.5%**)
-- **`~moonshotai/kimi-latest`** (in): $0.65/M -> $0.66/M (**+1.5%**)
+**Resumen:** 0 subidas | 4 bajadas | 0 lanzamientos | 2 retiradas | 0 cambios de contexto
 
 ## Bajadas de precio (oportunidades)
 
-- `z-ai/glm-5.2` (out): $3.00/M -> $2.64/M (-12.0%)
-- `z-ai/glm-5.2` (in): $0.93/M -> $0.84/M (-9.7%)
-- `deepseek/deepseek-v3.2` (in): $0.23/M -> $0.21/M (-6.2%)
-- `deepseek/deepseek-v3.2` (out): $0.34/M -> $0.32/M (-6.2%)
-- `moonshotai/kimi-k2.7-code` (in): $0.74/M -> $0.72/M (-2.7%)
-
-## Nuevos modelos
-
-- `cognitivecomputations/dolphin-mistral-24b-venice-edition` entrada $0.20/M / salida $0.90/M / ctx 128000
-- `openai/gpt-5.6-luna` entrada $1.00/M / salida $6.00/M / ctx 1050000
-- `openai/gpt-5.6-luna-pro` entrada $1.00/M / salida $6.00/M / ctx 1050000
-- `openai/gpt-5.6-sol` entrada $5.00/M / salida $30.00/M / ctx 1050000
-- `openai/gpt-5.6-sol-pro` entrada $5.00/M / salida $30.00/M / ctx 1050000
-- `openai/gpt-5.6-terra` entrada $2.50/M / salida $15.00/M / ctx 1050000
-- `openai/gpt-5.6-terra-pro` entrada $2.50/M / salida $15.00/M / ctx 1050000
+- `z-ai/glm-5.2` (in): $0.84/M -> $0.41/M (-51.7%)
+- `z-ai/glm-5.2` (out): $2.64/M -> $1.28/M (-51.7%)
+- `deepseek/deepseek-v4-flash` (in): $0.09/M -> $0.08/M (-14.4%)
+- `deepseek/deepseek-v4-flash` (out): $0.18/M -> $0.15/M (-14.4%)
 
 ## Modelos retirados
 
-- `google/gemini-2.5-flash-lite-preview-09-2025`
-- `poolside/laguna-xs.2`
-- `poolside/laguna-xs.2:free`
+- `arcee-ai/trinity-mini`
+- `meta-llama/llama-3-8b-instruct`

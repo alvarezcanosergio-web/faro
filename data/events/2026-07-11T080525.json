@@ -1,0 +1,56 @@
+{
+ "ts": "2026-07-11T080525",
+ "events": [
+  {
+   "type": "REMOVED",
+   "model": "arcee-ai/trinity-mini",
+   "name": "Arcee AI: Trinity Mini",
+   "in": 0.045,
+   "out": 0.15
+  },
+  {
+   "type": "REMOVED",
+   "model": "meta-llama/llama-3-8b-instruct",
+   "name": "Meta: Llama 3 8B Instruct",
+   "in": 0.14,
+   "out": 0.14
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.077,
+   "pct": -14.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "out",
+   "old": 0.18,
+   "new": 0.154,
+   "pct": -14.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.84,
+   "new": 0.406,
+   "pct": -51.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.64,
+   "new": 1.276,
+   "pct": -51.67
+  }
+ ],
+ "impacto": null
+}
