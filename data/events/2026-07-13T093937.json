@@ -1,0 +1,67 @@
+{
+ "ts": "2026-07-13T093937",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-4-maverick",
+   "name": "Meta: Llama 4 Maverick",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.2,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-4-maverick",
+   "name": "Meta: Llama 4 Maverick",
+   "side": "out",
+   "old": 0.6,
+   "new": 0.8,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "out",
+   "old": 0.1,
+   "new": 0.55,
+   "pct": 450.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "out",
+   "old": 1.74,
+   "new": 1.75,
+   "pct": 0.57
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "old": 202752,
+   "new": 200000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.42,
+   "new": 0.93,
+   "pct": 121.43
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 1.32,
+   "new": 3.0,
+   "pct": 127.27
+  }
+ ],
+ "impacto": null
+}
