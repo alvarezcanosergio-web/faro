@@ -1,0 +1,124 @@
+{
+ "ts": "2026-07-14T081942",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "kwaipilot/kat-coder-air-v2.5",
+   "name": "Kwaipilot: KAT-Coder-Air V2.5",
+   "in": 0.15,
+   "out": 0.6,
+   "ctx": 256000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "kwaipilot/kat-coder-pro-v2.5",
+   "name": "Kwaipilot: KAT-Coder-Pro V2.5",
+   "in": 0.74,
+   "out": 2.96,
+   "ctx": 256000
+  },
+  {
+   "type": "REMOVED",
+   "model": "liquid/lfm-2.5-1.2b-instruct:free",
+   "name": "LiquidAI: LFM2.5-1.2B-Instruct (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "liquid/lfm-2.5-1.2b-thinking:free",
+   "name": "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/gpt-oss-120b:free",
+   "name": "OpenAI: gpt-oss-120b (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "in",
+   "old": 0.21,
+   "new": 0.25,
+   "pct": 19.05
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "out",
+   "old": 0.79,
+   "new": 0.95,
+   "pct": 20.25
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "in",
+   "old": 0.077,
+   "new": 0.09,
+   "pct": 16.88
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "out",
+   "old": 0.154,
+   "new": 0.18,
+   "pct": 16.88
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "in",
+   "old": 0.12,
+   "new": 0.06,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-120b",
+   "name": "OpenAI: gpt-oss-120b",
+   "side": "in",
+   "old": 0.036,
+   "new": 0.03,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-120b",
+   "name": "OpenAI: gpt-oss-120b",
+   "side": "out",
+   "old": 0.18,
+   "new": 0.15,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.285,
+   "new": 0.289,
+   "pct": 1.4
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 3.0,
+   "new": 2.9172,
+   "pct": -2.76
+  }
+ ],
+ "impacto": null
+}
