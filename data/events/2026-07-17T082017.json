@@ -1,0 +1,146 @@
+{
+ "ts": "2026-07-17T082017",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "meta/muse-spark-1.1",
+   "name": "Meta: Muse Spark 1.1",
+   "in": 1.25,
+   "out": 4.25,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "in": 3.0,
+   "out": 15.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.1,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "out",
+   "old": 0.45,
+   "new": 0.3,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-3.2-3b-instruct",
+   "name": "Meta: Llama 3.2 3B Instruct",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.0509,
+   "pct": 1.8
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-3.2-3b-instruct",
+   "name": "Meta: Llama 3.2 3B Instruct",
+   "side": "out",
+   "old": 0.33,
+   "new": 0.335,
+   "pct": 1.52
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.7",
+   "name": "MiniMax: MiniMax M2.7",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.25,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.7",
+   "name": "MiniMax: MiniMax M2.7",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.0,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.719,
+   "new": 0.75,
+   "pct": 4.31
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "in",
+   "old": 0.45,
+   "new": 0.39,
+   "pct": -13.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "out",
+   "old": 3.0,
+   "new": 2.34,
+   "pct": -22.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.9646,
+   "new": 0.9324,
+   "pct": -3.34
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 3.0316,
+   "new": 2.9304,
+   "pct": -3.34
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "in",
+   "old": 0.66,
+   "new": 3.0,
+   "pct": 354.55
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "out",
+   "old": 3.41,
+   "new": 15.0,
+   "pct": 339.88
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "old": 262144,
+   "new": 1048576
+  }
+ ],
+ "impacto": null
+}
