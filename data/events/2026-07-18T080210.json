@@ -1,0 +1,169 @@
+{
+ "ts": "2026-07-18T080210",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "openrouter/auto-beta",
+   "name": "Auto Router (Beta)",
+   "in": null,
+   "out": null,
+   "ctx": 2000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "thinkingmachines/inkling",
+   "name": "Thinking Machines: Inkling",
+   "in": 1.0,
+   "out": 4.05,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "meta-llama/llama-3.2-11b-vision-instruct",
+   "name": "Meta: Llama 3.2 11B Vision Instruct",
+   "in": 0.345,
+   "out": 0.345
+  },
+  {
+   "type": "REMOVED",
+   "model": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+   "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
+   "in": 0.4,
+   "out": 0.4
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mancer/weaver",
+   "name": "Mancer: Weaver (alpha)",
+   "side": "in",
+   "old": 0.75,
+   "new": 0.5,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mancer/weaver",
+   "name": "Mancer: Weaver (alpha)",
+   "side": "out",
+   "old": 1.0,
+   "new": 0.75,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-nemo",
+   "name": "Mistral: Mistral Nemo",
+   "side": "in",
+   "old": 0.02,
+   "new": 0.019,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-nemo",
+   "name": "Mistral: Mistral Nemo",
+   "side": "out",
+   "old": 0.04,
+   "new": 0.03,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.75,
+   "new": 1.0,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.5,
+   "new": 4.4,
+   "pct": 25.71
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.12,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-30b-a3b",
+   "name": "Qwen: Qwen3 30B A3B",
+   "side": "in",
+   "old": 0.12,
+   "new": 0.13,
+   "pct": 8.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-30b-a3b",
+   "name": "Qwen: Qwen3 30B A3B",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.52,
+   "pct": 4.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "in",
+   "old": 0.195,
+   "new": 0.26,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "out",
+   "old": 1.56,
+   "new": 2.6,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.7-flash",
+   "name": "Z.ai: GLM 4.7 Flash",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.0605,
+   "pct": 0.83
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "z-ai/glm-4.7-flash",
+   "name": "Z.ai: GLM 4.7 Flash",
+   "old": 202752,
+   "new": 200000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.9324,
+   "new": 0.3402,
+   "pct": -63.51
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.9304,
+   "new": 1.0692,
+   "pct": -63.51
+  }
+ ],
+ "impacto": null
+}

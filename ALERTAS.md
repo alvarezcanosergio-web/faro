@@ -1,33 +1,39 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-07-17T082017 UTC** | Modelos vigilados: **344**
+Ultima vigilancia: **2026-07-18T080210 UTC** | Modelos vigilados: **344**
 
-**Resumen:** 6 subidas | 7 bajadas | 2 lanzamientos | 0 retiradas | 1 cambios de contexto
+**Resumen:** 8 subidas | 6 bajadas | 2 lanzamientos | 2 retiradas | 1 cambios de contexto
 
 ## Subidas de precio
 
-- **`~moonshotai/kimi-latest`** (in): $0.66/M -> $3.00/M (**+354.6%**)
-- **`~moonshotai/kimi-latest`** (out): $3.41/M -> $15.00/M (**+339.9%**)
-- **`google/gemma-3-27b-it`** (in): $0.08/M -> $0.10/M (**+25.0%**)
-- **`moonshotai/kimi-k2.7-code`** (in): $0.72/M -> $0.75/M (**+4.3%**)
-- **`meta-llama/llama-3.2-3b-instruct`** (in): $0.05/M -> $0.05/M (**+1.8%**)
-- **`meta-llama/llama-3.2-3b-instruct`** (out): $0.33/M -> $0.34/M (**+1.5%**)
+- **`qwen/qwen3.5-27b`** (out): $1.56/M -> $2.60/M (**+66.7%**)
+- **`moonshotai/kimi-k2.7-code`** (in): $0.75/M -> $1.00/M (**+33.3%**)
+- **`qwen/qwen3.5-27b`** (in): $0.20/M -> $0.26/M (**+33.3%**)
+- **`moonshotai/kimi-k2.7-code`** (out): $3.50/M -> $4.40/M (**+25.7%**)
+- **`qwen/qwen3-14b`** (in): $0.10/M -> $0.12/M (**+20.0%**)
+- **`qwen/qwen3-30b-a3b`** (in): $0.12/M -> $0.13/M (**+8.3%**)
+- **`qwen/qwen3-30b-a3b`** (out): $0.50/M -> $0.52/M (**+4.0%**)
+- **`z-ai/glm-4.7-flash`** (in): $0.06/M -> $0.06/M (**+0.8%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `google/gemma-3-27b-it` (out): $0.45/M -> $0.30/M (-33.3%)
-- `qwen/qwen3.5-397b-a17b` (out): $3.00/M -> $2.34/M (-22.0%)
-- `minimax/minimax-m2.7` (in): $0.30/M -> $0.25/M (-16.7%)
-- `minimax/minimax-m2.7` (out): $1.20/M -> $1.00/M (-16.7%)
-- `qwen/qwen3.5-397b-a17b` (in): $0.45/M -> $0.39/M (-13.3%)
-- `z-ai/glm-5.2` (in): $0.96/M -> $0.93/M (-3.3%)
-- `z-ai/glm-5.2` (out): $3.03/M -> $2.93/M (-3.3%)
+- `z-ai/glm-5.2` (in): $0.93/M -> $0.34/M (-63.5%)
+- `z-ai/glm-5.2` (out): $2.93/M -> $1.07/M (-63.5%)
+- `mancer/weaver` (in): $0.75/M -> $0.50/M (-33.3%)
+- `mancer/weaver` (out): $1.00/M -> $0.75/M (-25.0%)
+- `mistralai/mistral-nemo` (out): $0.04/M -> $0.03/M (-25.0%)
+- `mistralai/mistral-nemo` (in): $0.02/M -> $0.02/M (-5.0%)
 
 ## Nuevos modelos
 
-- `meta/muse-spark-1.1` entrada $1.25/M / salida $4.25/M / ctx 1048576
-- `moonshotai/kimi-k3` entrada $3.00/M / salida $15.00/M / ctx 1048576
+- `openrouter/auto-beta` entrada n/d / salida n/d / ctx 2000000
+- `thinkingmachines/inkling` entrada $1.00/M / salida $4.05/M / ctx 1048576
+
+## Modelos retirados
+
+- `meta-llama/llama-3.2-11b-vision-instruct`
+- `nvidia/llama-3.3-nemotron-super-49b-v1.5`
 
 ## Cambios de contexto
 
-- `~moonshotai/kimi-latest`: 262,144 -> 1,048,576 tokens
+- `z-ai/glm-4.7-flash`: 202,752 -> 200,000 tokens
