@@ -1,0 +1,136 @@
+{
+ "ts": "2026-07-20T092718",
+ "events": [
+  {
+   "type": "REMOVED",
+   "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+   "name": "Venice: Uncensored (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "meta-llama/llama-3.2-3b-instruct:free",
+   "name": "Meta: Llama 3.2 3B Instruct (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "meta-llama/llama-3.3-70b-instruct:free",
+   "name": "Meta: Llama 3.3 70B Instruct (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+   "name": "Nous: Hermes 3 405B Instruct (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "qwen/qwen3-coder:free",
+   "name": "Qwen: Qwen3 Coder 480B A35B (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "qwen/qwen3-next-80b-a3b-instruct:free",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.21,
+   "new": 0.085,
+   "pct": -59.52
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.455,
+   "new": 0.4,
+   "pct": -12.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.2275,
+   "new": 0.12,
+   "pct": -47.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "out",
+   "old": 0.91,
+   "new": 0.24,
+   "pct": -73.63
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-thinking-2507",
+   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+   "side": "in",
+   "old": 0.1495,
+   "new": 0.3,
+   "pct": 100.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-thinking-2507",
+   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+   "side": "out",
+   "old": 1.495,
+   "new": 3.0,
+   "pct": 100.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5",
+   "name": "Z.ai: GLM 5",
+   "side": "out",
+   "old": 3.15,
+   "new": 2.55,
+   "pct": -19.05
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "z-ai/glm-5",
+   "name": "Z.ai: GLM 5",
+   "old": 202752,
+   "new": 204800
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.2744,
+   "new": 0.9562,
+   "pct": 248.47
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 0.8624,
+   "new": 3.0052,
+   "pct": 248.47
+  }
+ ],
+ "impacto": null
+}
