@@ -1,0 +1,147 @@
+{
+ "ts": "2026-07-21T083830",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "meituan/longcat-2.0",
+   "name": "Meituan: LongCat 2.0",
+   "in": 0.3,
+   "out": 1.2,
+   "ctx": 1048756
+  },
+  {
+   "type": "REMOVED",
+   "model": "tencent/hy3:free",
+   "name": "Tencent: Hy3 (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "in",
+   "old": 0.098,
+   "new": 0.0938,
+   "pct": -4.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "out",
+   "old": 0.196,
+   "new": 0.1876,
+   "pct": -4.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "in",
+   "old": 0.22,
+   "new": 0.12,
+   "pct": -45.45
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "out",
+   "old": 0.55,
+   "new": 0.37,
+   "pct": -32.73
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.85,
+   "new": 0.82,
+   "pct": -3.53
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.8,
+   "new": 3.75,
+   "pct": -1.32
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.085,
+   "new": 0.08,
+   "pct": -5.88
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.4,
+   "new": 0.45,
+   "pct": 12.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.0975,
+   "pct": -2.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "out",
+   "old": 1.1,
+   "new": 0.78,
+   "pct": -29.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.14,
+   "pct": -30.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "side": "out",
+   "old": 0.8,
+   "new": 0.58,
+   "pct": -27.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.9562,
+   "new": 0.9408,
+   "pct": -1.61
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 3.0052,
+   "new": 2.9568,
+   "pct": -1.61
+  }
+ ],
+ "impacto": null
+}
