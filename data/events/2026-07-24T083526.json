@@ -1,0 +1,201 @@
+{
+ "ts": "2026-07-24T083526",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "inclusionai/ling-3.0-flash:free",
+   "name": "Ling-3.0-flash (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.08,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.45,
+   "pct": 50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "in",
+   "old": 0.12,
+   "new": 0.1,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2",
+   "name": "MiniMax: MiniMax M2",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.255,
+   "pct": -15.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2",
+   "name": "MiniMax: MiniMax M2",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.02,
+   "pct": -15.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.82,
+   "new": 0.71,
+   "pct": -13.41
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.75,
+   "new": 3.49,
+   "pct": -6.93
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.029,
+   "pct": -3.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "out",
+   "old": 0.13,
+   "new": 0.14,
+   "pct": 7.69
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-coder",
+   "name": "Qwen: Qwen3 Coder 480B A35B",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.38,
+   "pct": 26.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-coder",
+   "name": "Qwen: Qwen3 Coder 480B A35B",
+   "side": "out",
+   "old": 1.0,
+   "new": 1.55,
+   "pct": 55.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "in",
+   "old": 0.26,
+   "new": 0.195,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "out",
+   "old": 2.6,
+   "new": 1.56,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.288,
+   "pct": -52.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 3.6,
+   "new": 2.4,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.132,
+   "pct": -5.71
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "tencent/hy3",
+   "name": "Tencent: Hy3",
+   "side": "out",
+   "old": 0.58,
+   "new": 0.528,
+   "pct": -8.97
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "thinkingmachines/inkling",
+   "name": "Thinking Machines: Inkling",
+   "old": 524288,
+   "new": 1048576
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5",
+   "name": "Z.ai: GLM 5",
+   "side": "out",
+   "old": 3.15,
+   "new": 2.55,
+   "pct": -19.05
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.805,
+   "new": 0.7574,
+   "pct": -5.91
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.53,
+   "new": 2.3804,
+   "pct": -5.91
+  }
+ ],
+ "impacto": null
+}
