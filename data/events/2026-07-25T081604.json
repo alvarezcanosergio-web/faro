@@ -1,0 +1,193 @@
+{
+ "ts": "2026-07-25T081604",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-opus-5",
+   "name": "Claude Opus 5",
+   "in": 5.0,
+   "out": 25.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-opus-5-fast",
+   "name": "Claude Opus 5 (Fast)",
+   "in": 10.0,
+   "out": 50.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "in",
+   "old": 0.098,
+   "new": 0.0938,
+   "pct": -4.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "out",
+   "old": 0.196,
+   "new": 0.1876,
+   "pct": -4.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.14,
+   "pct": 40.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "out",
+   "old": 0.35,
+   "new": 0.4,
+   "pct": 14.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.684,
+   "new": 0.646,
+   "pct": -5.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "out",
+   "old": 3.42,
+   "new": 2.72,
+   "pct": -20.47
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.71,
+   "new": 0.78,
+   "pct": 9.86
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.085,
+   "pct": 6.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.45,
+   "new": 0.4,
+   "pct": -11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.6,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 2.2,
+   "new": 3.6,
+   "pct": 63.64
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "in",
+   "old": 0.029,
+   "new": 0.03,
+   "pct": 3.45
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "out",
+   "old": 0.14,
+   "new": 0.13,
+   "pct": -7.14
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-coder",
+   "name": "Qwen: Qwen3 Coder 480B A35B",
+   "side": "in",
+   "old": 0.38,
+   "new": 0.3,
+   "pct": -21.05
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-coder",
+   "name": "Qwen: Qwen3 Coder 480B A35B",
+   "side": "out",
+   "old": 1.55,
+   "new": 1.0,
+   "pct": -35.48
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.1,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.1,
+   "pct": -8.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.7574,
+   "new": 0.7504,
+   "pct": -0.92
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.3804,
+   "new": 2.3584,
+   "pct": -0.92
+  }
+ ],
+ "impacto": null
+}
