@@ -1,0 +1,132 @@
+{
+ "ts": "2026-07-26T083456",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "arcee-ai/trinity-large-thinking",
+   "name": "Arcee AI: Trinity Large Thinking",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.22,
+   "pct": -12.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "arcee-ai/trinity-large-thinking",
+   "name": "Arcee AI: Trinity Large Thinking",
+   "side": "out",
+   "old": 0.8,
+   "new": 0.85,
+   "pct": 6.25
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "in",
+   "old": 0.0938,
+   "new": 0.14,
+   "pct": 49.25
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash",
+   "side": "out",
+   "old": 0.1876,
+   "new": 0.28,
+   "pct": 49.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.78,
+   "new": 0.75,
+   "pct": -3.85
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "out",
+   "old": 0.13,
+   "new": 0.14,
+   "pct": 7.69
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-30b-a3b",
+   "name": "Qwen: Qwen3 30B A3B",
+   "side": "in",
+   "old": 0.13,
+   "new": 0.12,
+   "pct": -7.69
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-30b-a3b",
+   "name": "Qwen: Qwen3 30B A3B",
+   "side": "out",
+   "old": 0.52,
+   "new": 0.5,
+   "pct": -3.85
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-30b-a3b-instruct-2507",
+   "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.04815,
+   "pct": -51.85
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-30b-a3b-instruct-2507",
+   "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.19305,
+   "pct": -35.65
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.289,
+   "new": 0.3,
+   "pct": 3.81
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 2.4,
+   "new": 2.0,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.7504,
+   "new": 0.7042,
+   "pct": -6.16
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.3584,
+   "new": 2.2132,
+   "pct": -6.16
+  }
+ ],
+ "impacto": null
+}
