@@ -1,0 +1,88 @@
+{
+ "ts": "2026-07-27T100233",
+ "events": [
+  {
+   "type": "REMOVED",
+   "model": "inflection/inflection-3-pi",
+   "name": "Inflection: Inflection 3 Pi",
+   "in": 2.5,
+   "out": 10.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "inflection/inflection-3-productivity",
+   "name": "Inflection: Inflection 3 Productivity",
+   "in": 2.5,
+   "out": 10.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/gpt-4o-mini-search-preview",
+   "name": "OpenAI: GPT-4o-mini Search Preview",
+   "in": 0.15,
+   "out": 0.6
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "google/gemini-3.1-flash-image-preview",
+   "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+   "old": 131072,
+   "new": 65536
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.75,
+   "new": 0.73,
+   "pct": -2.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.5,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 3.6,
+   "new": 2.2,
+   "pct": -38.89
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-35b-a3b",
+   "name": "Qwen: Qwen3.5-35B-A3B",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.15,
+   "pct": 7.14
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.7042,
+   "new": 0.805,
+   "pct": 14.31
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.2132,
+   "new": 2.53,
+   "pct": 14.31
+  }
+ ],
+ "impacto": null
+}
