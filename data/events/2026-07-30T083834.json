@@ -1,0 +1,123 @@
+{
+ "ts": "2026-07-30T083834",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat",
+   "name": "DeepSeek: DeepSeek V3",
+   "side": "in",
+   "old": 0.2002,
+   "new": 0.2574,
+   "pct": 28.57
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat",
+   "name": "DeepSeek: DeepSeek V3",
+   "side": "out",
+   "old": 0.8001,
+   "new": 1.0287,
+   "pct": 28.57
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.1,
+   "pct": -28.57
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "out",
+   "old": 0.4,
+   "new": 0.34,
+   "pct": -15.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen-2.5-7b-instruct",
+   "name": "Qwen: Qwen2.5 7B Instruct",
+   "side": "in",
+   "old": 0.04,
+   "new": 0.1,
+   "pct": 150.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen-2.5-7b-instruct",
+   "name": "Qwen: Qwen2.5 7B Instruct",
+   "side": "out",
+   "old": 0.1,
+   "new": 0.2,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-coder-next",
+   "name": "Qwen: Qwen3 Coder Next",
+   "side": "in",
+   "old": 0.18,
+   "new": 0.12,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-coder-next",
+   "name": "Qwen: Qwen3 Coder Next",
+   "side": "out",
+   "old": 0.9,
+   "new": 0.8,
+   "pct": -11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "in",
+   "old": 0.13,
+   "new": 0.15,
+   "pct": 15.38
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "out",
+   "old": 0.52,
+   "new": 0.6,
+   "pct": 15.38
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.749,
+   "new": 0.6993,
+   "pct": -6.64
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.354,
+   "new": 2.1978,
+   "pct": -6.64
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "in",
+   "old": 3.0,
+   "new": 2.9,
+   "pct": -3.33
+  }
+ ],
+ "impacto": null
+}
