@@ -1,0 +1,231 @@
+{
+ "ts": "2026-07-31T091010",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "in": 0.14,
+   "out": 0.28,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/gpt-5-codex",
+   "name": "OpenAI: GPT-5 Codex",
+   "in": 1.25,
+   "out": 10.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/o3-deep-research",
+   "name": "OpenAI: o3 Deep Research",
+   "in": 10.0,
+   "out": 40.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/o4-mini-deep-research",
+   "name": "OpenAI: o4 Mini Deep Research",
+   "in": 2.0,
+   "out": 8.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.646,
+   "new": 0.95,
+   "pct": 47.06
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "out",
+   "old": 2.72,
+   "new": 4.0,
+   "pct": 47.06
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.6,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 2.2,
+   "new": 3.6,
+   "pct": 63.64
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-luna",
+   "name": "OpenAI: GPT-5.6 Luna",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.1,
+   "pct": -80.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-luna",
+   "name": "OpenAI: GPT-5.6 Luna",
+   "side": "out",
+   "old": 3.0,
+   "new": 0.6,
+   "pct": -80.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-luna-pro",
+   "name": "OpenAI: GPT-5.6 Luna Pro",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.1,
+   "pct": -80.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-luna-pro",
+   "name": "OpenAI: GPT-5.6 Luna Pro",
+   "side": "out",
+   "old": 3.0,
+   "new": 0.6,
+   "pct": -80.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-terra",
+   "name": "OpenAI: GPT-5.6 Terra",
+   "side": "in",
+   "old": 1.25,
+   "new": 1.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-terra",
+   "name": "OpenAI: GPT-5.6 Terra",
+   "side": "out",
+   "old": 7.5,
+   "new": 6.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-terra-pro",
+   "name": "OpenAI: GPT-5.6 Terra Pro",
+   "side": "in",
+   "old": 1.25,
+   "new": 1.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-terra-pro",
+   "name": "OpenAI: GPT-5.6 Terra Pro",
+   "side": "out",
+   "old": 7.5,
+   "new": 6.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "poolside/laguna-s-2.1",
+   "name": "Poolside: Laguna S 2.1",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.09,
+   "pct": -10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "poolside/laguna-s-2.1",
+   "name": "Poolside: Laguna S 2.1",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.18,
+   "pct": -10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-235b-a22b-thinking-2507",
+   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.23,
+   "pct": -23.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-235b-a22b-thinking-2507",
+   "name": "Qwen: Qwen3 235B A22B Thinking 2507",
+   "side": "out",
+   "old": 3.0,
+   "new": 2.3,
+   "pct": -23.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.13,
+   "pct": -13.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "out",
+   "old": 0.6,
+   "new": 0.52,
+   "pct": -13.33
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "thedrummer/unslopnemo-12b",
+   "name": "TheDrummer: UnslopNemo 12B",
+   "old": 32768,
+   "new": 1024000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.6993,
+   "new": 1.232,
+   "pct": 76.18
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.1978,
+   "new": 3.872,
+   "pct": 76.18
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "out",
+   "old": 15.0,
+   "new": 14.0,
+   "pct": -6.67
+  }
+ ],
+ "impacto": null
+}
