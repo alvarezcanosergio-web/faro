@@ -1,0 +1,68 @@
+{
+ "ts": "2026-08-02T083156",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek V4 Flash Latest",
+   "in": 0.09,
+   "out": 0.18,
+   "ctx": 1048576
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.09,
+   "pct": -35.71
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.28,
+   "new": 0.18,
+   "pct": -35.71
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.6,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 2.2,
+   "new": 3.6,
+   "pct": 63.64
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.76006,
+   "new": 0.3122,
+   "pct": -58.92
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.38876,
+   "new": 0.9812,
+   "pct": -58.92
+  }
+ ],
+ "impacto": null
+}
