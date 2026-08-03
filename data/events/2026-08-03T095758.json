@@ -1,0 +1,78 @@
+{
+ "ts": "2026-08-03T095758",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1495,
+   "pct": 66.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "out",
+   "old": 0.55,
+   "new": 0.598,
+   "pct": 8.73
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-vl-235b-a22b-thinking",
+   "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.98,
+   "pct": 145.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-vl-235b-a22b-thinking",
+   "name": "Qwen: Qwen3 VL 235B A22B Thinking",
+   "side": "out",
+   "old": 4.0,
+   "new": 3.95,
+   "pct": -1.25
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-122b-a10b",
+   "name": "Qwen: Qwen3.5-122B-A10B",
+   "side": "in",
+   "old": 0.26,
+   "new": 0.4,
+   "pct": 53.85
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-122b-a10b",
+   "name": "Qwen: Qwen3.5-122B-A10B",
+   "side": "out",
+   "old": 2.08,
+   "new": 3.2,
+   "pct": 53.85
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.3122,
+   "new": 1.19,
+   "pct": 281.17
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 0.9812,
+   "new": 3.74,
+   "pct": 281.17
+  }
+ ],
+ "impacto": null
+}

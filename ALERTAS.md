@@ -1,21 +1,19 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-08-02T083156 UTC** | Modelos vigilados: **337**
+Ultima vigilancia: **2026-08-03T095758 UTC** | Modelos vigilados: **337**
 
-**Resumen:** 2 subidas | 4 bajadas | 1 lanzamientos | 0 retiradas | 0 cambios de contexto
+**Resumen:** 7 subidas | 1 bajadas | 0 lanzamientos | 0 retiradas | 0 cambios de contexto
 
 ## Subidas de precio
 
-- **`nvidia/nemotron-3-ultra-550b-a55b`** (out): $2.20/M -> $3.60/M (**+63.6%**)
-- **`nvidia/nemotron-3-ultra-550b-a55b`** (in): $0.50/M -> $0.60/M (**+20.0%**)
+- **`z-ai/glm-5.2`** (in): $0.31/M -> $1.19/M (**+281.2%**)
+- **`z-ai/glm-5.2`** (out): $0.98/M -> $3.74/M (**+281.2%**)
+- **`qwen/qwen3-vl-235b-a22b-thinking`** (in): $0.40/M -> $0.98/M (**+145.0%**)
+- **`qwen/qwen3-235b-a22b-2507`** (in): $0.09/M -> $0.15/M (**+66.1%**)
+- **`qwen/qwen3.5-122b-a10b`** (in): $0.26/M -> $0.40/M (**+53.9%**)
+- **`qwen/qwen3.5-122b-a10b`** (out): $2.08/M -> $3.20/M (**+53.9%**)
+- **`qwen/qwen3-235b-a22b-2507`** (out): $0.55/M -> $0.60/M (**+8.7%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `z-ai/glm-5.2` (in): $0.76/M -> $0.31/M (-58.9%)
-- `z-ai/glm-5.2` (out): $2.39/M -> $0.98/M (-58.9%)
-- `deepseek/deepseek-v4-flash-0731` (in): $0.14/M -> $0.09/M (-35.7%)
-- `deepseek/deepseek-v4-flash-0731` (out): $0.28/M -> $0.18/M (-35.7%)
-
-## Nuevos modelos
-
-- `~deepseek/deepseek-v4-flash-latest` entrada $0.09/M / salida $0.18/M / ctx 1048576
+- `qwen/qwen3-vl-235b-a22b-thinking` (out): $4.00/M -> $3.95/M (-1.2%)
