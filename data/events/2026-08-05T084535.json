@@ -1,0 +1,42 @@
+{
+ "ts": "2026-08-05T084535",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.7",
+   "name": "MiniMax: MiniMax M2.7",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.27,
+   "pct": 8.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.7",
+   "name": "MiniMax: MiniMax M2.7",
+   "side": "out",
+   "old": 1.0,
+   "new": 1.08,
+   "pct": 8.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "in",
+   "old": 0.075,
+   "new": 0.09375,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.25,
+   "pct": 25.0
+  }
+ ],
+ "impacto": null
+}
