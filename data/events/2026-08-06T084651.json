@@ -1,0 +1,119 @@
+{
+ "ts": "2026-08-06T084651",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "inclusionai/ling-3.0-flash",
+   "name": "Ling-3.0-flash",
+   "in": 0.075,
+   "out": 0.22,
+   "ctx": 131072
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "meta/muse-spark-1.2",
+   "name": "Meta: Muse Spark 1.2",
+   "in": 1.25,
+   "out": 4.25,
+   "ctx": 1048576
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.0882,
+   "pct": -37.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.28,
+   "new": 0.1764,
+   "pct": -37.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.22,
+   "pct": 46.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.73,
+   "new": 0.7,
+   "pct": -4.11
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "in",
+   "old": 0.1495,
+   "new": 0.09,
+   "pct": -39.8
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "out",
+   "old": 0.598,
+   "new": 0.55,
+   "pct": -8.03
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.289,
+   "new": 0.6,
+   "pct": 107.61
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 2.4,
+   "new": 3.6,
+   "pct": 50.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "upstage/solar-pro-3",
+   "name": "Upstage: Solar Pro 3",
+   "old": 128000,
+   "new": 131072
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 0.966,
+   "new": 0.952,
+   "pct": -1.45
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 3.036,
+   "new": 2.992,
+   "pct": -1.45
+  }
+ ],
+ "impacto": null
+}
