@@ -1,30 +1,50 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-08-06T084651 UTC** | Modelos vigilados: **340**
+Ultima vigilancia: **2026-08-07T072538 UTC** | Modelos vigilados: **400**
 
-**Resumen:** 3 subidas | 7 bajadas | 2 lanzamientos | 0 retiradas | 1 cambios de contexto
+**Resumen:** 5 subidas | 7 bajadas | 61 lanzamientos | 1 retiradas | 1 cambios de contexto
 
 ## Subidas de precio
 
-- **`qwen/qwen3.6-27b`** (in): $0.29/M -> $0.60/M (**+107.6%**)
-- **`qwen/qwen3.6-27b`** (out): $2.40/M -> $3.60/M (**+50.0%**)
-- **`minimax/minimax-m2.5`** (in): $0.15/M -> $0.22/M (**+46.7%**)
+- **`nvidia/nemotron-3-super-120b-a12b`** (in): $0.09/M -> $0.30/M (**+252.9%**)
+- **`nvidia/nemotron-3-super-120b-a12b`** (out): $0.40/M -> $0.90/M (**+125.0%**)
+- **`qwen/qwen3.5-122b-a10b`** (out): $2.08/M -> $2.40/M (**+15.4%**)
+- **`qwen/qwen3.5-122b-a10b`** (in): $0.26/M -> $0.29/M (**+11.5%**)
+- **`qwen/qwen3-vl-235b-a22b-thinking`** (out): $3.95/M -> $4.00/M (**+1.3%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `qwen/qwen3-235b-a22b-2507` (in): $0.15/M -> $0.09/M (-39.8%)
-- `deepseek/deepseek-v4-flash` (in): $0.14/M -> $0.09/M (-37.0%)
-- `deepseek/deepseek-v4-flash` (out): $0.28/M -> $0.18/M (-37.0%)
-- `qwen/qwen3-235b-a22b-2507` (out): $0.60/M -> $0.55/M (-8.0%)
-- `moonshotai/kimi-k2.7-code` (in): $0.73/M -> $0.70/M (-4.1%)
-- `z-ai/glm-5.1` (in): $0.97/M -> $0.95/M (-1.4%)
-- `z-ai/glm-5.1` (out): $3.04/M -> $2.99/M (-1.4%)
+- `inclusionai/ling-3.0-flash` (in): $0.07/M -> $0.02/M (-72.0%)
+- `inclusionai/ling-3.0-flash` (out): $0.22/M -> $0.06/M (-71.4%)
+- `qwen/qwen3-vl-235b-a22b-thinking` (in): $0.98/M -> $0.40/M (-59.2%)
+- `~moonshotai/kimi-latest` (in): $2.90/M -> $2.50/M (-13.8%)
+- `z-ai/glm-5.2` (out): $2.42/M -> $2.15/M (-11.3%)
+- `z-ai/glm-5.2` (in): $0.76/M -> $0.68/M (-10.1%)
+- `thinkingmachines/inkling-small` (in): $0.50/M -> $0.45/M (-10.0%)
 
 ## Nuevos modelos
 
-- `inclusionai/ling-3.0-flash` entrada $0.07/M / salida $0.22/M / ctx 131072
-- `meta/muse-spark-1.2` entrada $1.25/M / salida $4.25/M / ctx 1048576
+- `anthropic/claude-fable-5:batch` entrada $5.00/M / salida $25.00/M / ctx 1000000
+- `anthropic/claude-haiku-4.5:batch` entrada $0.50/M / salida $2.50/M / ctx 200000
+- `anthropic/claude-opus-4.1:batch` entrada $7.50/M / salida $37.50/M / ctx 200000
+- `anthropic/claude-opus-4.5:batch` entrada $2.50/M / salida $12.50/M / ctx 200000
+- `anthropic/claude-opus-4.6:batch` entrada $2.50/M / salida $12.50/M / ctx 1000000
+- `anthropic/claude-opus-4.7:batch` entrada $2.50/M / salida $12.50/M / ctx 1000000
+- `anthropic/claude-opus-4.8:batch` entrada $2.50/M / salida $12.50/M / ctx 1000000
+- `anthropic/claude-opus-5:batch` entrada $2.50/M / salida $12.50/M / ctx 1000000
+- `anthropic/claude-sonnet-4.5:batch` entrada $1.50/M / salida $7.50/M / ctx 1000000
+- `anthropic/claude-sonnet-4.6:batch` entrada $1.50/M / salida $7.50/M / ctx 1000000
+- `anthropic/claude-sonnet-5:batch` entrada $1.00/M / salida $5.00/M / ctx 1000000
+- `google/gemini-2.5-flash-lite:batch` entrada $0.05/M / salida $0.20/M / ctx 1048576
+- `google/gemini-2.5-flash:batch` entrada $0.15/M / salida $1.25/M / ctx 1048576
+- `google/gemini-2.5-pro:batch` entrada $0.62/M / salida $5.00/M / ctx 1048576
+- `google/gemini-3-flash-preview:batch` entrada $0.25/M / salida $1.50/M / ctx 1048576
+- ... y 46 mas (ver events/*.json)
+
+## Modelos retirados
+
+- `inclusionai/ling-3.0-flash:free`
 
 ## Cambios de contexto
 
-- `upstage/solar-pro-3`: 128,000 -> 131,072 tokens
+- `inclusionai/ling-3.0-flash`: 131,072 -> 262,144 tokens
