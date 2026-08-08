@@ -1,0 +1,105 @@
+{
+ "ts": "2026-08-08T070253",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.2",
+   "name": "DeepSeek: DeepSeek V3.2",
+   "side": "in",
+   "old": 0.269,
+   "new": 0.26,
+   "pct": -3.35
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.2",
+   "name": "DeepSeek: DeepSeek V3.2",
+   "side": "out",
+   "old": 0.4,
+   "new": 0.38,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.0882,
+   "new": 0.14,
+   "pct": 58.73
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.1764,
+   "new": 0.28,
+   "pct": 58.73
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.589,
+   "new": 0.5795,
+   "pct": -1.61
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "out",
+   "old": 2.48,
+   "new": 2.44,
+   "pct": -1.61
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.085,
+   "pct": -71.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.9,
+   "new": 0.4,
+   "pct": -55.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "thinkingmachines/inkling",
+   "name": "Thinking Machines: Inkling",
+   "side": "in",
+   "old": 1.0,
+   "new": 0.95,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.6832,
+   "new": 0.28,
+   "pct": -59.02
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.1472,
+   "new": 0.88,
+   "pct": -59.02
+  }
+ ],
+ "impacto": null
+}
