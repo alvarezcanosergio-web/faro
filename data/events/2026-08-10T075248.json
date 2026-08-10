@@ -1,0 +1,150 @@
+{
+ "ts": "2026-08-10T075248",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.08,
+   "pct": -11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.07,
+   "new": 0.12,
+   "pct": 71.43
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.34,
+   "new": 0.4,
+   "pct": 17.65
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "gryphe/mythomax-l2-13b",
+   "name": "MythoMax 13B",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.06,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "gryphe/mythomax-l2-13b",
+   "name": "MythoMax 13B",
+   "side": "out",
+   "old": 0.11,
+   "new": 0.06,
+   "pct": -45.45
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-4-maverick",
+   "name": "Meta: Llama 4 Maverick",
+   "side": "out",
+   "old": 0.8,
+   "new": 0.696,
+   "pct": -13.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.5795,
+   "new": 0.95,
+   "pct": 63.93
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "out",
+   "old": 2.44,
+   "new": 4.0,
+   "pct": 63.93
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.085,
+   "pct": -71.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.9,
+   "new": 0.4,
+   "pct": -55.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.2275,
+   "new": 0.12,
+   "pct": -47.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "out",
+   "old": 0.91,
+   "new": 0.24,
+   "pct": -73.63
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 0.952,
+   "new": 1.4,
+   "pct": 47.06
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 2.992,
+   "new": 4.4,
+   "pct": 47.06
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.0966,
+   "new": 0.76,
+   "pct": 686.75
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 0.3036,
+   "new": 2.42,
+   "pct": 697.1
+  }
+ ],
+ "impacto": null
+}
