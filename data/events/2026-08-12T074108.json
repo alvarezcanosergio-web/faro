@@ -1,0 +1,110 @@
+{
+ "ts": "2026-08-12T074108",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "bytedance-seed/seed-2.0-code",
+   "name": "ByteDance Seed: Seed-2.0-Code",
+   "in": 0.5,
+   "out": 3.0,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "liquid/lfm-2.5-2.6b:free",
+   "name": "LiquidAI: LFM2.5-2.6B (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 128000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "in": 0.1,
+   "out": 0.25,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "nvidia/nemotron-3.5-lightning:free",
+   "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.1-terminus",
+   "name": "DeepSeek: DeepSeek V3.1 Terminus",
+   "side": "out",
+   "old": 1.0,
+   "new": 0.95,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-120b",
+   "name": "OpenAI: gpt-oss-120b",
+   "side": "in",
+   "old": 0.037,
+   "new": 0.03,
+   "pct": -18.92
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-vl-235b-a22b-instruct",
+   "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+   "side": "in",
+   "old": 0.21,
+   "new": 0.26,
+   "pct": 23.81
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-vl-235b-a22b-instruct",
+   "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+   "side": "out",
+   "old": 1.9,
+   "new": 1.04,
+   "pct": -45.26
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.55,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "out",
+   "old": 2.0,
+   "new": 2.2,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.76,
+   "new": 0.5,
+   "pct": -34.21
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.42,
+   "new": 3.15,
+   "pct": 30.17
+  }
+ ],
+ "impacto": null
+}
