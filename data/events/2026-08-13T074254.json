@@ -1,0 +1,131 @@
+{
+ "ts": "2026-08-13T074254",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "bytedance-seed/seed-2-1-turbo",
+   "name": "ByteDance Seed: Seed 2.1 Turbo",
+   "in": 0.5,
+   "out": 2.5,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813",
+   "in": 0.435,
+   "out": 0.87,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "qwen/qwen3.8-2.4t-a95b",
+   "name": "Qwen: Qwen3.8 2.4T A95B",
+   "in": 2.0,
+   "out": 6.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "x-ai/grok-4.6",
+   "name": "SpaceXAI: Grok 4.6",
+   "in": 2.0,
+   "out": 6.0,
+   "ctx": 500000
+  },
+  {
+   "type": "REMOVED",
+   "model": "inclusionai/ling-3.0-tiny:free",
+   "name": "inclusionAI: Ling 3.0 Tiny (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "anthracite-org/magnum-v4-72b",
+   "name": "Magnum v4 72B",
+   "old": 16384,
+   "new": 32768
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro",
+   "side": "in",
+   "old": 0.63168,
+   "new": 1.168,
+   "pct": 84.9
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro",
+   "side": "out",
+   "old": 1.26336,
+   "new": 2.336,
+   "pct": 84.9
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.7,
+   "new": 0.67,
+   "pct": -4.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.5,
+   "new": 3.4,
+   "pct": -2.86
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "old": 262144,
+   "new": 1048576
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-35b-a3b",
+   "name": "Qwen: Qwen3.5-35B-A3B",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.25,
+   "pct": 78.57
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-35b-a3b",
+   "name": "Qwen: Qwen3.5-35B-A3B",
+   "side": "out",
+   "old": 1.0,
+   "new": 1.25,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "in",
+   "old": 0.55,
+   "new": 0.5,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "out",
+   "old": 2.2,
+   "new": 2.0,
+   "pct": -9.09
+  }
+ ],
+ "impacto": null
+}
