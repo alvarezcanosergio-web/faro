@@ -1,0 +1,160 @@
+{
+ "ts": "2026-08-14T074040",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-3.7-flash",
+   "name": "Google: Gemini 3.7 Flash",
+   "in": 0.375,
+   "out": 1.875,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-3.7-flash:batch",
+   "name": "Google: Gemini 3.7 Flash (batch)",
+   "in": 0.1875,
+   "out": 0.9375,
+   "ctx": 1048576
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "deepseek/deepseek-r1",
+   "name": "DeepSeek: R1",
+   "old": 163840,
+   "new": 64000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.14,
+   "pct": 75.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.18,
+   "new": 0.28,
+   "pct": 55.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemini-3.6-flash",
+   "name": "Google: Gemini 3.6 Flash",
+   "side": "in",
+   "old": 1.5,
+   "new": 0.75,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemini-3.6-flash",
+   "name": "Google: Gemini 3.6 Flash",
+   "side": "out",
+   "old": 7.5,
+   "new": 3.75,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemini-3.6-flash:batch",
+   "name": "Google: Gemini 3.6 Flash (batch)",
+   "side": "in",
+   "old": 0.75,
+   "new": 0.375,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemini-3.6-flash:batch",
+   "name": "Google: Gemini 3.6 Flash (batch)",
+   "side": "out",
+   "old": 3.75,
+   "new": 1.875,
+   "pct": -50.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "old": 1048576,
+   "new": 1000000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.13,
+   "pct": -13.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "out",
+   "old": 0.6,
+   "new": 0.52,
+   "pct": -13.33
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "qwen/qwen3.8-2.4t-a95b",
+   "name": "Qwen: Qwen3.8 2.4T A95B",
+   "old": 1000000,
+   "new": 1010000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.63,
+   "pct": 26.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 3.15,
+   "new": 1.98,
+   "pct": -37.14
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~google/gemini-flash-latest",
+   "name": "Google Gemini Flash Latest",
+   "side": "in",
+   "old": 1.5,
+   "new": 0.375,
+   "pct": -75.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~google/gemini-flash-latest",
+   "name": "Google Gemini Flash Latest",
+   "side": "out",
+   "old": 7.5,
+   "new": 1.875,
+   "pct": -75.0
+  }
+ ],
+ "impacto": null
+}

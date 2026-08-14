@@ -1,35 +1,35 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-08-13T074254 UTC** | Modelos vigilados: **409**
+Ultima vigilancia: **2026-08-14T074040 UTC** | Modelos vigilados: **411**
 
-**Resumen:** 4 subidas | 4 bajadas | 4 lanzamientos | 1 retiradas | 2 cambios de contexto
+**Resumen:** 4 subidas | 9 bajadas | 2 lanzamientos | 0 retiradas | 3 cambios de contexto
 
 ## Subidas de precio
 
-- **`deepseek/deepseek-v4-pro`** (in): $0.63/M -> $1.17/M (**+84.9%**)
-- **`deepseek/deepseek-v4-pro`** (out): $1.26/M -> $2.34/M (**+84.9%**)
-- **`qwen/qwen3.5-35b-a3b`** (in): $0.14/M -> $0.25/M (**+78.6%**)
-- **`qwen/qwen3.5-35b-a3b`** (out): $1.00/M -> $1.25/M (**+25.0%**)
+- **`deepseek/deepseek-v4-flash-0731`** (in): $0.08/M -> $0.14/M (**+75.0%**)
+- **`deepseek/deepseek-v4-flash-0731`** (out): $0.18/M -> $0.28/M (**+55.6%**)
+- **`z-ai/glm-5.2`** (in): $0.50/M -> $0.63/M (**+26.0%**)
+- **`qwen/qwen3-next-80b-a3b-instruct`** (in): $0.09/M -> $0.10/M (**+11.1%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `z-ai/glm-4.6` (in): $0.55/M -> $0.50/M (-9.1%)
-- `z-ai/glm-4.6` (out): $2.20/M -> $2.00/M (-9.1%)
-- `moonshotai/kimi-k2.7-code` (in): $0.70/M -> $0.67/M (-4.3%)
-- `moonshotai/kimi-k2.7-code` (out): $3.50/M -> $3.40/M (-2.9%)
+- `~google/gemini-flash-latest` (in): $1.50/M -> $0.38/M (-75.0%)
+- `~google/gemini-flash-latest` (out): $7.50/M -> $1.88/M (-75.0%)
+- `google/gemini-3.6-flash` (in): $1.50/M -> $0.75/M (-50.0%)
+- `google/gemini-3.6-flash` (out): $7.50/M -> $3.75/M (-50.0%)
+- `google/gemini-3.6-flash:batch` (in): $0.75/M -> $0.38/M (-50.0%)
+- `google/gemini-3.6-flash:batch` (out): $3.75/M -> $1.88/M (-50.0%)
+- `z-ai/glm-5.2` (out): $3.15/M -> $1.98/M (-37.1%)
+- `qwen/qwen3-vl-30b-a3b-instruct` (in): $0.15/M -> $0.13/M (-13.3%)
+- `qwen/qwen3-vl-30b-a3b-instruct` (out): $0.60/M -> $0.52/M (-13.3%)
 
 ## Nuevos modelos
 
-- `bytedance-seed/seed-2-1-turbo` entrada $0.50/M / salida $2.50/M / ctx 262144
-- `deepseek/deepseek-v4-pro-0813` entrada $0.43/M / salida $0.87/M / ctx 1048576
-- `qwen/qwen3.8-2.4t-a95b` entrada $2.00/M / salida $6.00/M / ctx 1000000
-- `x-ai/grok-4.6` entrada $2.00/M / salida $6.00/M / ctx 500000
-
-## Modelos retirados
-
-- `inclusionai/ling-3.0-tiny:free`
+- `google/gemini-3.7-flash` entrada $0.38/M / salida $1.88/M / ctx 1048576
+- `google/gemini-3.7-flash:batch` entrada $0.19/M / salida $0.94/M / ctx 1048576
 
 ## Cambios de contexto
 
-- `anthracite-org/magnum-v4-72b`: 16,384 -> 32,768 tokens
-- `nvidia/nemotron-3.5-lightning`: 262,144 -> 1,048,576 tokens
+- `deepseek/deepseek-r1`: 163,840 -> 64,000 tokens
+- `nvidia/nemotron-3.5-lightning`: 1,048,576 -> 1,000,000 tokens
+- `qwen/qwen3.8-2.4t-a95b`: 1,000,000 -> 1,010,000 tokens
