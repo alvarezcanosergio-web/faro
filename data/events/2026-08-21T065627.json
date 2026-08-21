@@ -1,0 +1,182 @@
+{
+ "ts": "2026-08-21T065627",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "mancer/weaver",
+   "name": "Mancer: Weaver (alpha)",
+   "in": 0.5,
+   "out": 0.75,
+   "ctx": 8000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "mistralai/ministral-8b",
+   "name": "Mistral: Ministral 8B",
+   "in": 0.11,
+   "out": 0.11,
+   "ctx": 128000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "stealth/ox-alpha",
+   "name": "Ox Alpha",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "tencent/hy-mt2-1.8b",
+   "name": "Tencent: Hy-MT2-1.8B",
+   "in": 0.044,
+   "out": 0.177,
+   "ctx": 8192
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "tencent/hy-mt2-30b-a3b",
+   "name": "Tencent: Hy-MT2-30B-A3B",
+   "in": 0.074,
+   "out": 0.295,
+   "ctx": 8192
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.088606,
+   "new": 0.0826,
+   "pct": -6.78
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.177212,
+   "new": 0.1652,
+   "pct": -6.78
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-31b-it",
+   "name": "Google: Gemma 4 31B",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "liquid/lfm-2.5-2.6b:free",
+   "name": "LiquidAI: LFM2.5-2.6B (free)",
+   "old": 128000,
+   "new": 65536
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta/muse-glimmer-30b",
+   "name": "Meta: Muse Glimmer 30B",
+   "side": "in",
+   "old": 0.35,
+   "new": 0.3,
+   "pct": -14.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta/muse-glimmer-30b",
+   "name": "Meta: Muse Glimmer 30B",
+   "side": "out",
+   "old": 1.5,
+   "new": 1.1,
+   "pct": -26.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.225,
+   "new": 0.27,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 0.9,
+   "new": 0.95,
+   "pct": 5.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.71,
+   "new": 0.67,
+   "pct": -5.63
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.5,
+   "new": 3.4,
+   "pct": -2.86
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "old": 1000000,
+   "new": 262144
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.12,
+   "new": 0.2275,
+   "pct": 89.58
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "out",
+   "old": 0.24,
+   "new": 0.91,
+   "pct": 279.17
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "thinkingmachines/inkling-small",
+   "name": "Thinking Machines: Inkling Small",
+   "old": 524288,
+   "new": 1048576
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "z-ai/glm-5.2:batch",
+   "name": "Z.ai: GLM 5.2 (batch)",
+   "old": 512000,
+   "new": 1048575
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 0.14,
+   "new": 0.18,
+   "pct": 28.57
+  }
+ ],
+ "impacto": null
+}
