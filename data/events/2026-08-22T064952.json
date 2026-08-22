@@ -1,0 +1,311 @@
+{
+ "ts": "2026-08-22T064952",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "deepseek/deepseek-v4-flash-vision-exp",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+   "in": 0.44,
+   "out": 1.32,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "meta/muse-spark-1.2-contributor",
+   "name": "Meta: Muse Spark 1.2 Contributor",
+   "in": 0.1,
+   "out": 0.2,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "thinkingmachines/inkling-small:free",
+   "name": "Thinking Machines: Inkling Small (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "thinkingmachines/inkling:free",
+   "name": "Thinking Machines: Inkling (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "REMOVED",
+   "model": "deepcogito/cogito-v2.1-671b",
+   "name": "Deep Cogito: Cogito v2.1 671B",
+   "in": 1.25,
+   "out": 1.25
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/gpt-oss-20b:free",
+   "name": "OpenAI: gpt-oss-20b (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.55,
+   "pct": 120.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "out",
+   "old": 0.95,
+   "new": 1.65,
+   "pct": 73.68
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.2",
+   "name": "DeepSeek: DeepSeek V3.2",
+   "side": "in",
+   "old": 0.269,
+   "new": 0.26,
+   "pct": -3.35
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.2",
+   "name": "DeepSeek: DeepSeek V3.2",
+   "side": "out",
+   "old": 0.4,
+   "new": 0.38,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.0826,
+   "new": 0.07266,
+   "pct": -12.03
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.1652,
+   "new": 0.14532,
+   "pct": -12.03
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.08,
+   "pct": -42.86
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.28,
+   "new": 0.18,
+   "pct": -35.71
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 1.6,
+   "new": 0.46458,
+   "pct": -70.96
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 3.2,
+   "new": 0.92916,
+   "pct": -70.96
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 0.95,
+   "new": 1.08,
+   "pct": 13.68
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "in",
+   "old": 0.09375,
+   "new": 0.075,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "out",
+   "old": 0.25,
+   "new": 0.2,
+   "pct": -20.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "old": 256000,
+   "new": 131072
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.95,
+   "new": 0.5415,
+   "pct": -43.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "out",
+   "old": 4.0,
+   "new": 2.28,
+   "pct": -43.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol",
+   "name": "OpenAI: GPT-5.6 Sol",
+   "side": "in",
+   "old": 2.5,
+   "new": 2.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol",
+   "name": "OpenAI: GPT-5.6 Sol",
+   "side": "out",
+   "old": 15.0,
+   "new": 10.0,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol-pro",
+   "name": "OpenAI: GPT-5.6 Sol Pro",
+   "side": "in",
+   "old": 2.5,
+   "new": 2.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol-pro",
+   "name": "OpenAI: GPT-5.6 Sol Pro",
+   "side": "out",
+   "old": 15.0,
+   "new": 10.0,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol-pro:batch",
+   "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+   "side": "in",
+   "old": 1.25,
+   "new": 1.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol-pro:batch",
+   "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+   "side": "out",
+   "old": 7.5,
+   "new": 5.0,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol:batch",
+   "name": "OpenAI: GPT-5.6 Sol (batch)",
+   "side": "in",
+   "old": 1.25,
+   "new": 1.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol:batch",
+   "name": "OpenAI: GPT-5.6 Sol (batch)",
+   "side": "out",
+   "old": 7.5,
+   "new": 5.0,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.2275,
+   "new": 0.12,
+   "pct": -47.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "out",
+   "old": 0.91,
+   "new": 0.24,
+   "pct": -73.63
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~openai/gpt-latest",
+   "name": "OpenAI GPT Latest",
+   "side": "in",
+   "old": 2.5,
+   "new": 2.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~openai/gpt-latest",
+   "name": "OpenAI GPT Latest",
+   "side": "out",
+   "old": 15.0,
+   "new": 10.0,
+   "pct": -33.33
+  }
+ ],
+ "impacto": null
+}
