@@ -1,0 +1,87 @@
+{
+ "ts": "2026-08-31T131937",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.0798,
+   "new": 0.08708,
+   "pct": 9.12
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.1596,
+   "new": 0.17416,
+   "pct": 9.12
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.427344,
+   "new": 1.039302,
+   "pct": 143.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 0.854688,
+   "new": 2.078604,
+   "pct": 143.2
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-4-maverick",
+   "name": "Meta: Llama 4 Maverick",
+   "side": "out",
+   "old": 0.8,
+   "new": 0.696,
+   "pct": -13.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/devstral-2512",
+   "name": "Mistral: Devstral 2 2512",
+   "side": "in",
+   "old": 0.44,
+   "new": 0.4,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/devstral-2512",
+   "name": "Mistral: Devstral 2 2512",
+   "side": "out",
+   "old": 2.2,
+   "new": 2.0,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.5",
+   "name": "MoonshotAI: Kimi K2.5",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.45,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.5",
+   "name": "MoonshotAI: Kimi K2.5",
+   "side": "out",
+   "old": 3.0,
+   "new": 2.25,
+   "pct": -25.0
+  }
+ ],
+ "impacto": null
+}

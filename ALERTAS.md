@@ -1,24 +1,20 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-08-30T114230 UTC** | Modelos vigilados: **396**
+Ultima vigilancia: **2026-08-31T131937 UTC** | Modelos vigilados: **396**
 
-**Resumen:** 5 subidas | 8 bajadas | 0 lanzamientos | 0 retiradas | 0 cambios de contexto
+**Resumen:** 4 subidas | 5 bajadas | 0 lanzamientos | 0 retiradas | 0 cambios de contexto
 
 ## Subidas de precio
 
-- **`deepseek/deepseek-v4-flash-0731`** (out): $0.09/M -> $0.18/M (**+100.0%**)
-- **`~deepseek/deepseek-v4-flash-latest`** (out): $0.10/M -> $0.16/M (**+60.0%**)
-- **`deepseek/deepseek-v4-flash-0731`** (in): $0.04/M -> $0.07/M (**+44.4%**)
-- **`arcee-ai/trinity-large-thinking`** (in): $0.22/M -> $0.25/M (**+13.6%**)
-- **`thinkingmachines/inkling`** (in): $0.95/M -> $1.00/M (**+5.3%**)
+- **`deepseek/deepseek-v4-pro`** (in): $0.43/M -> $1.04/M (**+143.2%**)
+- **`deepseek/deepseek-v4-pro`** (out): $0.85/M -> $2.08/M (**+143.2%**)
+- **`deepseek/deepseek-v4-flash`** (in): $0.08/M -> $0.09/M (**+9.1%**)
+- **`deepseek/deepseek-v4-flash`** (out): $0.16/M -> $0.17/M (**+9.1%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `deepseek/deepseek-v4-pro` (in): $0.62/M -> $0.43/M (-31.1%)
-- `deepseek/deepseek-v4-pro` (out): $1.24/M -> $0.85/M (-31.1%)
-- `z-ai/glm-5.1` (in): $1.26/M -> $0.97/M (-23.3%)
-- `z-ai/glm-5.1` (out): $3.96/M -> $3.04/M (-23.3%)
-- `qwen/qwen3-next-80b-a3b-instruct` (in): $0.10/M -> $0.09/M (-10.0%)
-- `arcee-ai/trinity-large-thinking` (out): $0.85/M -> $0.80/M (-5.9%)
-- `deepseek/deepseek-v4-flash` (in): $0.08/M -> $0.08/M (-4.4%)
-- `deepseek/deepseek-v4-flash` (out): $0.17/M -> $0.16/M (-4.4%)
+- `moonshotai/kimi-k2.5` (in): $0.60/M -> $0.45/M (-25.0%)
+- `moonshotai/kimi-k2.5` (out): $3.00/M -> $2.25/M (-25.0%)
+- `meta-llama/llama-4-maverick` (out): $0.80/M -> $0.70/M (-13.0%)
+- `mistralai/devstral-2512` (in): $0.44/M -> $0.40/M (-9.1%)
+- `mistralai/devstral-2512` (out): $2.20/M -> $2.00/M (-9.1%)
