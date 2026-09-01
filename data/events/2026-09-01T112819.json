@@ -1,0 +1,396 @@
+{
+ "ts": "2026-09-01T112819",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "ibm-granite/granite-4.2-8b",
+   "name": "IBM: Granite 4.2 8B",
+   "in": 0.1,
+   "out": 0.15,
+   "ctx": 131072
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-3.5-turbo:batch",
+   "name": "OpenAI: GPT-3.5 Turbo (batch)",
+   "in": 0.25,
+   "out": 0.75,
+   "ctx": 16385
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-4-turbo:batch",
+   "name": "OpenAI: GPT-4 Turbo (batch)",
+   "in": 5.0,
+   "out": 15.0,
+   "ctx": 128000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-4.1-mini:batch",
+   "name": "OpenAI: GPT-4.1 Mini (batch)",
+   "in": 0.2,
+   "out": 0.8,
+   "ctx": 1047576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-4.1-nano:batch",
+   "name": "OpenAI: GPT-4.1 Nano (batch)",
+   "in": 0.05,
+   "out": 0.2,
+   "ctx": 1047576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-4.1:batch",
+   "name": "OpenAI: GPT-4.1 (batch)",
+   "in": 1.0,
+   "out": 4.0,
+   "ctx": 1047576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-4o-mini:batch",
+   "name": "OpenAI: GPT-4o-mini (batch)",
+   "in": 0.075,
+   "out": 0.3,
+   "ctx": 128000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-4o:batch",
+   "name": "OpenAI: GPT-4o (batch)",
+   "in": 1.25,
+   "out": 5.0,
+   "ctx": 128000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5-mini:batch",
+   "name": "OpenAI: GPT-5 Mini (batch)",
+   "in": 0.125,
+   "out": 1.0,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5-nano:batch",
+   "name": "OpenAI: GPT-5 Nano (batch)",
+   "in": 0.025,
+   "out": 0.2,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5-pro:batch",
+   "name": "OpenAI: GPT-5 Pro (batch)",
+   "in": 7.5,
+   "out": 60.0,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.1:batch",
+   "name": "OpenAI: GPT-5.1 (batch)",
+   "in": 0.625,
+   "out": 5.0,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.2-pro:batch",
+   "name": "OpenAI: GPT-5.2 Pro (batch)",
+   "in": 10.5,
+   "out": 84.0,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.2:batch",
+   "name": "OpenAI: GPT-5.2 (batch)",
+   "in": 0.875,
+   "out": 7.0,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.4-mini:batch",
+   "name": "OpenAI: GPT-5.4 Mini (batch)",
+   "in": 0.375,
+   "out": 2.25,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.4-nano:batch",
+   "name": "OpenAI: GPT-5.4 Nano (batch)",
+   "in": 0.1,
+   "out": 0.625,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.4-pro:batch",
+   "name": "OpenAI: GPT-5.4 Pro (batch)",
+   "in": 15.0,
+   "out": 90.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.4:batch",
+   "name": "OpenAI: GPT-5.4 (batch)",
+   "in": 1.25,
+   "out": 7.5,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.5-pro:batch",
+   "name": "OpenAI: GPT-5.5 Pro (batch)",
+   "in": 15.0,
+   "out": 90.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.5:batch",
+   "name": "OpenAI: GPT-5.5 (batch)",
+   "in": 2.5,
+   "out": 15.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.6-luna-pro:batch",
+   "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+   "in": 0.1,
+   "out": 0.6,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.6-luna:batch",
+   "name": "OpenAI: GPT-5.6 Luna (batch)",
+   "in": 0.1,
+   "out": 0.6,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.6-sol-pro:batch",
+   "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.6-sol:batch",
+   "name": "OpenAI: GPT-5.6 Sol (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.6-terra-pro:batch",
+   "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+   "in": 1.0,
+   "out": 6.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5.6-terra:batch",
+   "name": "OpenAI: GPT-5.6 Terra (batch)",
+   "in": 1.0,
+   "out": 6.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-5:batch",
+   "name": "OpenAI: GPT-5 (batch)",
+   "in": 0.625,
+   "out": 5.0,
+   "ctx": 400000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/o3-mini:batch",
+   "name": "OpenAI: o3 Mini (batch)",
+   "in": 0.55,
+   "out": 2.2,
+   "ctx": 200000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/o3:batch",
+   "name": "OpenAI: o3 (batch)",
+   "in": 1.0,
+   "out": 4.0,
+   "ctx": 200000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/o4-mini:batch",
+   "name": "OpenAI: o4 Mini (batch)",
+   "in": 0.55,
+   "out": 2.2,
+   "ctx": 200000
+  },
+  {
+   "type": "REMOVED",
+   "model": "kwaipilot/kat-coder-air-v2.5",
+   "name": "Kwaipilot: KAT-Coder-Air V2.5",
+   "in": 0.15,
+   "out": 0.6
+  },
+  {
+   "type": "REMOVED",
+   "model": "mistralai/codestral-2508:batch",
+   "name": "Mistral: Codestral 2508 (batch)",
+   "in": 0.3,
+   "out": 0.9
+  },
+  {
+   "type": "REMOVED",
+   "model": "mistralai/ministral-8b-2512:batch",
+   "name": "Mistral: Ministral 3 8B 2512 (batch)",
+   "in": 0.15,
+   "out": 0.15
+  },
+  {
+   "type": "REMOVED",
+   "model": "mistralai/mistral-large-2512:batch",
+   "name": "Mistral: Mistral Large 3 2512 (batch)",
+   "in": 0.5,
+   "out": 1.5
+  },
+  {
+   "type": "REMOVED",
+   "model": "mistralai/mistral-medium-3.1:batch",
+   "name": "Mistral: Mistral Medium 3.1 (batch)",
+   "in": 0.4,
+   "out": 2.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "mistralai/mistral-small-2603:batch",
+   "name": "Mistral: Mistral Small 4 (batch)",
+   "in": 0.15,
+   "out": 0.6
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "anthracite-org/magnum-v4-72b",
+   "name": "Magnum v4 72B",
+   "side": "in",
+   "old": 3.0,
+   "new": 2.5,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.08708,
+   "new": 0.08092,
+   "pct": -7.07
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.17416,
+   "new": 0.16184,
+   "pct": -7.07
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 1.039302,
+   "new": 1.6,
+   "pct": 53.95
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 2.078604,
+   "new": 3.2,
+   "pct": 53.95
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mancer/weaver",
+   "name": "Mancer: Weaver (alpha)",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.4,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-4-scout",
+   "name": "Meta: Llama 4 Scout",
+   "side": "in",
+   "old": 0.11,
+   "new": 0.1,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-4-scout",
+   "name": "Meta: Llama 4 Scout",
+   "side": "out",
+   "old": 0.34,
+   "new": 0.3,
+   "pct": -11.76
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.05,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 1.1875,
+   "new": 1.17,
+   "pct": -1.47
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 4.18,
+   "new": 3.96,
+   "pct": -5.26
+  }
+ ],
+ "impacto": null
+}
