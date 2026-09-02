@@ -1,0 +1,203 @@
+{
+ "ts": "2026-09-02T110211",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-fable-5.1",
+   "name": "Anthropic: Claude Fable 5.1",
+   "in": 10.0,
+   "out": 50.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-fable-5.1:batch",
+   "name": "Anthropic: Claude Fable 5.1 (batch)",
+   "in": 5.0,
+   "out": 25.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "inception/mercury-2.5-preview",
+   "name": "Inception: Mercury 2.5 Preview",
+   "in": 0.04,
+   "out": 0.15,
+   "ctx": 260000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "in": 0.075,
+   "out": 0.25,
+   "ctx": 1310720
+  },
+  {
+   "type": "REMOVED",
+   "model": "anthropic/claude-opus-4.7-fast",
+   "name": "Anthropic: Claude Opus 4.7 (Fast)",
+   "in": 30.0,
+   "out": 150.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "anthropic/claude-opus-4.8-fast",
+   "name": "Anthropic: Claude Opus 4.8 (Fast)",
+   "in": 10.0,
+   "out": 50.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "anthropic/claude-opus-5-fast",
+   "name": "Claude Opus 5 (Fast)",
+   "in": 10.0,
+   "out": 50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "in",
+   "old": 0.55,
+   "new": 0.25,
+   "pct": -54.55
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "out",
+   "old": 1.65,
+   "new": 0.95,
+   "pct": -42.42
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.08092,
+   "new": 0.088606,
+   "pct": 9.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.16184,
+   "new": 0.177212,
+   "pct": 9.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 1.6,
+   "new": 1.04226,
+   "pct": -34.86
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 3.2,
+   "new": 2.08452,
+   "pct": -34.86
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813",
+   "side": "in",
+   "old": 0.66,
+   "new": 1.1154,
+   "pct": 69.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813",
+   "side": "out",
+   "old": 1.98,
+   "new": 3.3462,
+   "pct": 69.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.625,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 2.2,
+   "new": 3.125,
+   "pct": 42.05
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-2.4t-a95b:batch",
+   "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+   "side": "in",
+   "old": 2.5,
+   "new": 2.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-2.4t-a95b:batch",
+   "name": "Qwen: Qwen3.8 2.4T A95B (batch)",
+   "side": "out",
+   "old": 6.25,
+   "new": 6.0,
+   "pct": -4.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 1.19,
+   "new": 0.966,
+   "pct": -18.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 3.74,
+   "new": 3.036,
+   "pct": -18.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 1.17,
+   "new": 1.15,
+   "pct": -1.71
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 3.96,
+   "new": 3.5,
+   "pct": -11.62
+  }
+ ],
+ "impacto": null
+}
