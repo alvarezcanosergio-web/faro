@@ -1,0 +1,180 @@
+{
+ "ts": "2026-09-03T110011",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-3.8-flash",
+   "name": "Google: Gemini 3.8 Flash",
+   "in": 0.75,
+   "out": 3.75,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-3.8-flash:batch",
+   "name": "Google: Gemini 3.8 Flash (batch)",
+   "in": 0.375,
+   "out": 1.875,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "meta/muse-spark-1.3",
+   "name": "Meta: Muse Spark 1.3",
+   "in": 1.25,
+   "out": 4.25,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "meta/muse-spark-1.3-contributor",
+   "name": "Meta: Muse Spark 1.3 Contributor",
+   "in": 0.1,
+   "out": 0.2,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b:batch",
+   "name": "NVIDIA: Nemotron 3 Ultra (batch)",
+   "in": 0.6,
+   "out": 3.6
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat",
+   "name": "DeepSeek: DeepSeek V3",
+   "side": "in",
+   "old": 0.2574,
+   "new": 0.32,
+   "pct": 24.32
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat",
+   "name": "DeepSeek: DeepSeek V3",
+   "side": "out",
+   "old": 1.0287,
+   "new": 0.89,
+   "pct": -13.48
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemini-3.7-flash:batch",
+   "name": "Google: Gemini 3.7 Flash (batch)",
+   "side": "in",
+   "old": 0.1875,
+   "new": 0.375,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemini-3.7-flash:batch",
+   "name": "Google: Gemini 3.7 Flash (batch)",
+   "side": "out",
+   "old": 0.9375,
+   "new": 1.875,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "side": "in",
+   "old": 0.71,
+   "new": 0.1,
+   "pct": -85.92
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "side": "out",
+   "old": 0.71,
+   "new": 0.32,
+   "pct": -54.93
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta/muse-glimmer-30b",
+   "name": "Meta: Muse Glimmer 30B",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.1,
+   "pct": -8.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.625,
+   "new": 0.6,
+   "pct": -4.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 3.125,
+   "new": 2.4,
+   "pct": -23.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "in",
+   "old": 0.39,
+   "new": 0.55,
+   "pct": 41.03
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "out",
+   "old": 2.34,
+   "new": 3.5,
+   "pct": 49.57
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "in",
+   "old": 0.43,
+   "new": 0.55,
+   "pct": 27.91
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "out",
+   "old": 1.75,
+   "new": 2.2,
+   "pct": 25.71
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 1.15,
+   "new": 1.12,
+   "pct": -2.61
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 3.5,
+   "new": 3.52,
+   "pct": 0.57
+  }
+ ],
+ "impacto": null
+}
