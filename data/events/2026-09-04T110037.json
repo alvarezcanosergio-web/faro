@@ -1,0 +1,154 @@
+{
+ "ts": "2026-09-04T110037",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "inclusionai/ling-3.0-flash-fin",
+   "name": "Ling 3.0 Flash Fin",
+   "in": 0.06,
+   "out": 0.18,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "nvidia/nemotron-3.5-content-safety",
+   "name": "NVIDIA: Nemotron 3.5 Content Safety",
+   "in": 0.2,
+   "out": 0.2,
+   "ctx": 131072
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "x-ai/grok-4.3:batch",
+   "name": "SpaceXAI: Grok 4.3 (batch)",
+   "in": 1.0,
+   "out": 2.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.55,
+   "pct": 120.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "out",
+   "old": 0.95,
+   "new": 1.65,
+   "pct": 73.68
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "mistralai/mistral-medium-3-5:batch",
+   "name": "Mistral: Mistral Medium 3.5 (batch)",
+   "old": 262144,
+   "new": 32768
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.625,
+   "pct": 4.17
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 2.4,
+   "new": 3.125,
+   "pct": 30.21
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen2.5-vl-72b-instruct",
+   "name": "Qwen: Qwen2.5 VL 72B Instruct",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.8,
+   "pct": 220.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen2.5-vl-72b-instruct",
+   "name": "Qwen: Qwen2.5 VL 72B Instruct",
+   "side": "out",
+   "old": 0.75,
+   "new": 1.0,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "in",
+   "old": 0.425,
+   "new": 0.42,
+   "pct": -1.18
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "out",
+   "old": 2.55,
+   "new": 3.0,
+   "pct": 17.65
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "undi95/remm-slerp-l2-13b",
+   "name": "ReMM SLERP 13B",
+   "side": "in",
+   "old": 0.45,
+   "new": 0.35,
+   "pct": -22.22
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "in",
+   "old": 2.55,
+   "new": 2.5,
+   "pct": -1.96
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "out",
+   "old": 12.75,
+   "new": 14.0,
+   "pct": 9.8
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 1.12,
+   "new": 1.15,
+   "pct": 2.68
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 3.52,
+   "new": 3.5,
+   "pct": -0.57
+  }
+ ],
+ "impacto": null
+}
