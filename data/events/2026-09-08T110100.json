@@ -1,0 +1,171 @@
+{
+ "ts": "2026-09-08T110100",
+ "events": [
+  {
+   "type": "REMOVED",
+   "model": "minimax/minimax-m2.7:free",
+   "name": "MiniMax: MiniMax M2.7 (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "minimax/minimax-m3:free",
+   "name": "MiniMax: MiniMax M3 (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "name": "DeepSeek: DeepSeek V3 0324",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.29,
+   "pct": 16.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "name": "DeepSeek: DeepSeek V3 0324",
+   "side": "out",
+   "old": 1.0,
+   "new": 1.14,
+   "pct": 14.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "in",
+   "old": 0.55,
+   "new": 0.25,
+   "pct": -54.55
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat-v3.1",
+   "name": "DeepSeek: DeepSeek V3.1",
+   "side": "out",
+   "old": 1.65,
+   "new": 0.95,
+   "pct": -42.42
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.065,
+   "pct": -53.57
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.28,
+   "new": 0.18,
+   "pct": -35.71
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m1",
+   "name": "MiniMax: MiniMax M1",
+   "side": "in",
+   "old": 0.55,
+   "new": 0.4,
+   "pct": -27.27
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "mistralai/mistral-medium-3-5:batch",
+   "name": "Mistral: Mistral Medium 3.5 (batch)",
+   "old": 32768,
+   "new": 262144
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.66,
+   "new": 0.71,
+   "pct": 7.58
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.4,
+   "new": 3.5,
+   "pct": 2.94
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.12,
+   "new": 0.2275,
+   "pct": 89.58
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "out",
+   "old": 0.24,
+   "new": 0.91,
+   "pct": 279.17
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "in",
+   "old": 0.43,
+   "new": 0.55,
+   "pct": 27.91
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "out",
+   "old": 1.75,
+   "new": 2.2,
+   "pct": 25.71
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.7-flash",
+   "name": "Z.ai: GLM 4.7 Flash",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.0605,
+   "pct": 0.83
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "in",
+   "old": 2.55,
+   "new": 2.5,
+   "pct": -1.96
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "out",
+   "old": 12.75,
+   "new": 14.0,
+   "pct": 9.8
+  }
+ ],
+ "impacto": null
+}
