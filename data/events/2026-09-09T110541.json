@@ -1,0 +1,305 @@
+{
+ "ts": "2026-09-09T110541",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "deepseek/deepseek-v4-flash-vision-exp:batch",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+   "in": 0.11,
+   "out": 0.33,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "inception/mercury-2.5",
+   "name": "Inception: Mercury 2.5",
+   "in": 0.04,
+   "out": 0.15,
+   "ctx": 260000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "nex-agi/nex-n2.5-mini:free",
+   "name": "Nex AGI: Nex-N2.5-Mini (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "nex-agi/nex-n2.5-pro:free",
+   "name": "Nex AGI: Nex-N2.5-Pro (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "z-ai/glm-5.2:batch",
+   "name": "Z.ai: GLM 5.2 (batch)",
+   "in": 0.7,
+   "out": 2.2,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "z-ai/glm-5.3:batch",
+   "name": "Z.ai: GLM 5.3 (batch)",
+   "in": 0.7,
+   "out": 2.2,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "inception/mercury-2.5-preview",
+   "name": "Inception: Mercury 2.5 Preview",
+   "in": 0.04,
+   "out": 0.15
+  },
+  {
+   "type": "REMOVED",
+   "model": "nex-agi/nex-n2-mini",
+   "name": "Nex AGI: Nex-N2-Mini",
+   "in": 0.025,
+   "out": 0.1
+  },
+  {
+   "type": "REMOVED",
+   "model": "nex-agi/nex-n2-pro",
+   "name": "Nex AGI: Nex-N2-Pro",
+   "in": 0.25,
+   "out": 1.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731:batch",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.11,
+   "pct": -21.43
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731:batch",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+   "side": "out",
+   "old": 0.28,
+   "new": 0.33,
+   "pct": 17.86
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro-0813:batch",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+   "side": "in",
+   "old": 1.32,
+   "new": 0.66,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro-0813:batch",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+   "side": "out",
+   "old": 3.96,
+   "new": 1.98,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "ibm-granite/granite-4.2-8b",
+   "name": "IBM: Granite 4.2 8B",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.06,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "ibm-granite/granite-4.2-8b",
+   "name": "IBM: Granite 4.2 8B",
+   "side": "out",
+   "old": 0.15,
+   "new": 0.25,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta/muse-glimmer-30b:batch",
+   "name": "Meta: Muse Glimmer 30B (batch)",
+   "side": "in",
+   "old": 0.35,
+   "new": 0.175,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta/muse-glimmer-30b:batch",
+   "name": "Meta: Muse Glimmer 30B (batch)",
+   "side": "out",
+   "old": 1.5,
+   "new": 0.75,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m1",
+   "name": "MiniMax: MiniMax M1",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.55,
+   "pct": 37.5
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "old": 1000000,
+   "new": 262144
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.22,
+   "pct": 144.44
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-235b-a22b-2507",
+   "name": "Qwen: Qwen3 235B A22B Instruct 2507",
+   "side": "out",
+   "old": 0.55,
+   "new": 0.88,
+   "pct": 60.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.09,
+   "pct": -10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "in",
+   "old": 0.39,
+   "new": 0.55,
+   "pct": 41.03
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "out",
+   "old": 2.34,
+   "new": 3.5,
+   "pct": 49.57
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "in",
+   "old": 0.55,
+   "new": 0.43,
+   "pct": -21.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-4.6",
+   "name": "Z.ai: GLM 4.6",
+   "side": "out",
+   "old": 2.2,
+   "new": 1.75,
+   "pct": -20.45
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.075,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.25,
+   "pct": -50.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "old": 1048575,
+   "new": 1048576
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "in",
+   "old": 2.5,
+   "new": 2.4,
+   "pct": -4.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI Kimi Latest",
+   "side": "out",
+   "old": 14.0,
+   "new": 12.0,
+   "pct": -14.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.07125,
+   "new": 0.075,
+   "pct": 5.26
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.2375,
+   "new": 0.25,
+   "pct": 5.26
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 1.12,
+   "new": 1.113,
+   "pct": -0.63
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 3.52,
+   "new": 3.498,
+   "pct": -0.62
+  }
+ ],
+ "impacto": null
+}
