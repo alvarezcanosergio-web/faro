@@ -1,49 +1,35 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-09-12T102852 UTC** | Modelos vigilados: **445**
+Ultima vigilancia: **2026-09-13T113154 UTC** | Modelos vigilados: **445**
 
-**Resumen:** 4 subidas | 24 bajadas | 7 lanzamientos | 1 retiradas | 1 cambios de contexto
+**Resumen:** 13 subidas | 11 bajadas | 0 lanzamientos | 0 retiradas | 0 cambios de contexto
 
 ## Subidas de precio
 
-- **`meta-llama/llama-3.1-70b-instruct`** (in): $0.40/M -> $0.72/M (**+80.0%**)
-- **`meta-llama/llama-3.1-70b-instruct`** (out): $0.40/M -> $0.72/M (**+80.0%**)
-- **`~moonshotai/kimi-latest`** (out): $11.70/M -> $11.90/M (**+1.7%**)
-- **`~z-ai/glm-latest`** (out): $3.31/M -> $3.36/M (**+1.6%**)
+- **`google/gemma-4-26b-a4b-it`** (in): $0.04/M -> $0.09/M (**+114.3%**)
+- **`deepseek/deepseek-v4-pro`** (in): $0.80/M -> $1.60/M (**+100.2%**)
+- **`deepseek/deepseek-v4-pro`** (out): $1.60/M -> $3.20/M (**+100.2%**)
+- **`z-ai/glm-5.3-flash`** (in): $0.07/M -> $0.15/M (**+100.0%**)
+- **`z-ai/glm-5.3-flash`** (out): $0.25/M -> $0.50/M (**+100.0%**)
+- **`~deepseek/deepseek-v4-flash-latest`** (out): $0.07/M -> $0.11/M (**+50.9%**)
+- **`google/gemma-4-26b-a4b-it`** (out): $0.22/M -> $0.30/M (**+36.4%**)
+- **`meta/muse-glimmer-30b`** (out): $1.10/M -> $1.50/M (**+36.4%**)
+- **`~deepseek/deepseek-v4-flash-latest`** (in): $0.03/M -> $0.04/M (**+17.3%**)
+- **`meta/muse-glimmer-30b`** (in): $0.30/M -> $0.35/M (**+16.7%**)
+- **`moonshotai/kimi-k3`** (in): $2.30/M -> $2.65/M (**+15.0%**)
+- **`moonshotai/kimi-k3`** (out): $11.55/M -> $13.28/M (**+15.0%**)
+- **`~z-ai/glm-latest`** (in): $0.87/M -> $0.94/M (**+7.2%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `qwen/qwen3-235b-a22b-2507` (in): $0.22/M -> $0.09/M (-60.2%)
-- `qwen/qwen3-235b-a22b-2507` (out): $0.88/M -> $0.35/M (-60.2%)
-- `~deepseek/deepseek-v4-flash-latest` (out): $0.16/M -> $0.07/M (-56.2%)
-- `deepseek/deepseek-v4-flash-0731` (out): $0.18/M -> $0.08/M (-55.6%)
-- `z-ai/glm-5.3-flash` (in): $0.15/M -> $0.07/M (-50.0%)
-- `z-ai/glm-5.3-flash` (out): $0.50/M -> $0.25/M (-50.0%)
-- `qwen/qwen3.8-27b` (in): $0.42/M -> $0.21/M (-49.0%)
-- `~deepseek/deepseek-v4-flash-latest` (in): $0.05/M -> $0.03/M (-40.0%)
-- `deepseek/deepseek-v4-flash-0731` (in): $0.07/M -> $0.04/M (-38.5%)
-- `z-ai/glm-5.2` (in): $0.97/M -> $0.60/M (-37.9%)
-- `z-ai/glm-5.2` (out): $3.04/M -> $2.00/M (-34.1%)
-- `deepseek/deepseek-v4-flash` (in): $0.09/M -> $0.07/M (-24.6%)
-- `deepseek/deepseek-v4-flash` (out): $0.18/M -> $0.13/M (-24.6%)
-- `deepseek/deepseek-v4-pro` (in): $0.96/M -> $0.80/M (-16.3%)
-- `deepseek/deepseek-v4-pro` (out): $1.91/M -> $1.60/M (-16.3%)
-- ... y 9 mas (ver events/*.json)
-
-## Nuevos modelos
-
-- `inclusionai/ling-3.0-flash-vl` entrada $0.06/M / salida $0.18/M / ctx 131072
-- `inference-net/schematron-v2-small` entrada $0.05/M / salida $0.23/M / ctx 128000
-- `inference-net/schematron-v2-turbo` entrada $0.03/M / salida $0.15/M / ctx 128000
-- `~openai/gpt-astra-latest` entrada $10.00/M / salida $50.00/M / ctx 1050000
-- `~openai/gpt-luna-latest` entrada $0.20/M / salida $1.20/M / ctx 1050000
-- `~openai/gpt-sol-latest` entrada $2.00/M / salida $10.00/M / ctx 1050000
-- `~openai/gpt-terra-latest` entrada $2.00/M / salida $12.00/M / ctx 1050000
-
-## Modelos retirados
-
-- `~openai/gpt-latest`
-
-## Cambios de contexto
-
-- `mistralai/mistral-small-3.2-24b-instruct`: 131,072 -> 256,000 tokens
+- `qwen/qwen3-30b-a3b-instruct-2507` (in): $0.09/M -> $0.05/M (-46.5%)
+- `meta-llama/llama-3.1-70b-instruct` (in): $0.72/M -> $0.40/M (-44.4%)
+- `meta-llama/llama-3.1-70b-instruct` (out): $0.72/M -> $0.40/M (-44.4%)
+- `qwen/qwen3-30b-a3b-instruct-2507` (out): $0.30/M -> $0.19/M (-35.6%)
+- `deepseek/deepseek-v4-flash` (in): $0.07/M -> $0.05/M (-26.6%)
+- `deepseek/deepseek-v4-flash` (out): $0.13/M -> $0.10/M (-26.6%)
+- `z-ai/glm-5.3` (in): $1.40/M -> $1.09/M (-22.0%)
+- `z-ai/glm-5.3` (out): $4.40/M -> $3.43/M (-22.0%)
+- `~moonshotai/kimi-latest` (out): $11.90/M -> $10.95/M (-8.0%)
+- `~z-ai/glm-latest` (out): $3.36/M -> $3.17/M (-5.7%)
+- `~moonshotai/kimi-latest` (in): $2.12/M -> $2.10/M (-1.2%)

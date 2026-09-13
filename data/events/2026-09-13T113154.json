@@ -1,0 +1,222 @@
+{
+ "ts": "2026-09-13T113154",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.06678,
+   "new": 0.049,
+   "pct": -26.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.13356,
+   "new": 0.098,
+   "pct": -26.62
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.799182,
+   "new": 1.6,
+   "pct": 100.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 1.598364,
+   "new": 3.2,
+   "pct": 100.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.042,
+   "new": 0.09,
+   "pct": 114.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.22,
+   "new": 0.3,
+   "pct": 36.36
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.1-70b-instruct",
+   "name": "Meta: Llama 3.1 70B Instruct",
+   "side": "in",
+   "old": 0.72,
+   "new": 0.4,
+   "pct": -44.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.1-70b-instruct",
+   "name": "Meta: Llama 3.1 70B Instruct",
+   "side": "out",
+   "old": 0.72,
+   "new": 0.4,
+   "pct": -44.44
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta/muse-glimmer-30b",
+   "name": "Meta: Muse Glimmer 30B",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.35,
+   "pct": 16.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta/muse-glimmer-30b",
+   "name": "Meta: Muse Glimmer 30B",
+   "side": "out",
+   "old": 1.1,
+   "new": 1.5,
+   "pct": 36.36
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "side": "in",
+   "old": 2.302729,
+   "new": 2.648138,
+   "pct": 15.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "side": "out",
+   "old": 11.550195,
+   "new": 13.282724,
+   "pct": 15.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-30b-a3b-instruct-2507",
+   "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.04815,
+   "pct": -46.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-30b-a3b-instruct-2507",
+   "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.19305,
+   "pct": -35.65
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "in",
+   "old": 1.4,
+   "new": 1.092,
+   "pct": -22.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "out",
+   "old": 4.4,
+   "new": 3.432,
+   "pct": -22.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.075,
+   "new": 0.15,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.25,
+   "new": 0.5,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.0352,
+   "pct": 17.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 0.07,
+   "new": 0.1056,
+   "pct": 50.86
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 2.125,
+   "new": 2.1,
+   "pct": -1.18
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 11.9,
+   "new": 10.95,
+   "pct": -7.98
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 0.8727,
+   "new": 0.936,
+   "pct": 7.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 3.36,
+   "new": 3.168,
+   "pct": -5.71
+  }
+ ],
+ "impacto": null
+}
