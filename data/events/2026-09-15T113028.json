@@ -1,0 +1,108 @@
+{
+ "ts": "2026-09-15T113028",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "in": 0.15,
+   "out": 0.6,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "in": 0.66,
+   "out": 1.98,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "google/gemini-2.5-pro-preview-05-06",
+   "name": "Google: Gemini 2.5 Pro Preview 05-06",
+   "in": 1.25,
+   "out": 10.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/gpt-4-turbo-preview",
+   "name": "OpenAI: GPT-4 Turbo Preview",
+   "in": 10.0,
+   "out": 30.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-4-maverick",
+   "name": "Meta: Llama 4 Maverick",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.1875,
+   "pct": -6.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-4-maverick",
+   "name": "Meta: Llama 4 Maverick",
+   "side": "out",
+   "old": 0.696,
+   "new": 0.6525,
+   "pct": -6.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-35b-a3b",
+   "name": "Qwen: Qwen3.5-35B-A3B",
+   "side": "in",
+   "old": 0.3125,
+   "new": 0.1625,
+   "pct": -48.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-35b-a3b",
+   "name": "Qwen: Qwen3.5-35B-A3B",
+   "side": "out",
+   "old": 1.25,
+   "new": 1.3,
+   "pct": 4.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.6832,
+   "new": 1.4,
+   "pct": 104.92
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 2.1472,
+   "new": 4.4,
+   "pct": 104.92
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 0.92,
+   "new": 0.8775,
+   "pct": -4.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 3.1372,
+   "new": 2.97,
+   "pct": -5.33
+  }
+ ],
+ "impacto": null
+}
