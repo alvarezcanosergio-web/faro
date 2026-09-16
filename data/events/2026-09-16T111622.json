@@ -1,0 +1,134 @@
+{
+ "ts": "2026-09-16T111622",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "z-ai/glm-5.2:free",
+   "name": "Z.ai: GLM 5.2 (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 32768
+  },
+  {
+   "type": "REMOVED",
+   "model": "google/gemma-4-31b-it:batch",
+   "name": "Google: Gemma 4 31B (batch)",
+   "in": 0.39,
+   "out": 0.97
+  },
+  {
+   "type": "REMOVED",
+   "model": "openai/gpt-oss-20b:batch",
+   "name": "OpenAI: gpt-oss-20b (batch)",
+   "in": 0.05,
+   "out": 0.2
+  },
+  {
+   "type": "REMOVED",
+   "model": "thinkingmachines/inkling-small:batch",
+   "name": "Thinking Machines: Inkling Small (batch)",
+   "in": 0.5,
+   "out": 1.2
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m1",
+   "name": "MiniMax: MiniMax M1",
+   "side": "in",
+   "old": 0.55,
+   "new": 0.4,
+   "pct": -27.27
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "in",
+   "old": 0.075,
+   "new": 0.09375,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.25,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.71,
+   "new": 0.7062,
+   "pct": -0.54
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.5,
+   "new": 3.21,
+   "pct": -8.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.625,
+   "pct": 4.17
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-ultra-550b-a55b",
+   "name": "NVIDIA: Nemotron 3 Ultra",
+   "side": "out",
+   "old": 2.4,
+   "new": 3.125,
+   "pct": 30.21
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.09,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.3,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 2.1,
+   "new": 2.0,
+   "pct": -4.76
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 10.95,
+   "new": 11.2,
+   "pct": 2.28
+  }
+ ],
+ "impacto": null
+}

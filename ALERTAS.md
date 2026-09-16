@@ -1,29 +1,32 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-09-15T113028 UTC** | Modelos vigilados: **445**
+Ultima vigilancia: **2026-09-16T111622 UTC** | Modelos vigilados: **443**
 
-**Resumen:** 3 subidas | 5 bajadas | 2 lanzamientos | 2 retiradas | 0 cambios de contexto
+**Resumen:** 5 subidas | 6 bajadas | 1 lanzamientos | 3 retiradas | 0 cambios de contexto
 
 ## Subidas de precio
 
-- **`z-ai/glm-5.2`** (in): $0.68/M -> $1.40/M (**+104.9%**)
-- **`z-ai/glm-5.2`** (out): $2.15/M -> $4.40/M (**+104.9%**)
-- **`qwen/qwen3.5-35b-a3b`** (out): $1.25/M -> $1.30/M (**+4.0%**)
+- **`nvidia/nemotron-3-ultra-550b-a55b`** (out): $2.40/M -> $3.12/M (**+30.2%**)
+- **`mistralai/mistral-small-3.2-24b-instruct`** (in): $0.07/M -> $0.09/M (**+25.0%**)
+- **`mistralai/mistral-small-3.2-24b-instruct`** (out): $0.20/M -> $0.25/M (**+25.0%**)
+- **`nvidia/nemotron-3-ultra-550b-a55b`** (in): $0.60/M -> $0.62/M (**+4.2%**)
+- **`~moonshotai/kimi-latest`** (out): $10.95/M -> $11.20/M (**+2.3%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `qwen/qwen3.5-35b-a3b` (in): $0.31/M -> $0.16/M (-48.0%)
-- `meta-llama/llama-4-maverick` (in): $0.20/M -> $0.19/M (-6.2%)
-- `meta-llama/llama-4-maverick` (out): $0.70/M -> $0.65/M (-6.2%)
-- `~z-ai/glm-latest` (out): $3.14/M -> $2.97/M (-5.3%)
-- `~z-ai/glm-latest` (in): $0.92/M -> $0.88/M (-4.6%)
+- `z-ai/glm-5.3-flash` (in): $0.15/M -> $0.09/M (-40.0%)
+- `z-ai/glm-5.3-flash` (out): $0.50/M -> $0.30/M (-40.0%)
+- `minimax/minimax-m1` (in): $0.55/M -> $0.40/M (-27.3%)
+- `moonshotai/kimi-k2.7-code` (out): $3.50/M -> $3.21/M (-8.3%)
+- `~moonshotai/kimi-latest` (in): $2.10/M -> $2.00/M (-4.8%)
+- `moonshotai/kimi-k2.7-code` (in): $0.71/M -> $0.71/M (-0.5%)
 
 ## Nuevos modelos
 
-- `~deepseek/deepseek-flash-latest` entrada $0.15/M / salida $0.60/M / ctx 1048576
-- `~deepseek/deepseek-pro-latest` entrada $0.66/M / salida $1.98/M / ctx 1048576
+- `z-ai/glm-5.2:free` entrada $0.00/M / salida $0.00/M / ctx 32768
 
 ## Modelos retirados
 
-- `google/gemini-2.5-pro-preview-05-06`
-- `openai/gpt-4-turbo-preview`
+- `google/gemma-4-31b-it:batch`
+- `openai/gpt-oss-20b:batch`
+- `thinkingmachines/inkling-small:batch`
