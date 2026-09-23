@@ -1,0 +1,385 @@
+{
+ "ts": "2026-09-23T111533",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-opus-5.5",
+   "name": "Anthropic: Claude Opus 5.5",
+   "in": 4.0,
+   "out": 20.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-opus-5.5:batch",
+   "name": "Anthropic: Claude Opus 5.5 (batch)",
+   "in": 2.0,
+   "out": 10.0,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "cohere/command-a-plus",
+   "name": "Cohere: Command A+",
+   "in": 0.3,
+   "out": 1.5,
+   "ctx": 192000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "deepseek/deepseek-v4.1-flash:batch",
+   "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+   "in": 0.112,
+   "out": 0.336,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "moonshotai/kimi-k3:batch",
+   "name": "MoonshotAI: Kimi K3 (batch)",
+   "in": 2.28,
+   "out": 11.4,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-luna",
+   "name": "OpenAI: GPT-6 Luna",
+   "in": 0.1,
+   "out": 0.5,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-luna-pro",
+   "name": "OpenAI: GPT-6 Luna Pro",
+   "in": 0.1,
+   "out": 0.5,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-luna-pro:batch",
+   "name": "OpenAI: GPT-6 Luna Pro (batch)",
+   "in": 0.05,
+   "out": 0.25,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-luna:batch",
+   "name": "OpenAI: GPT-6 Luna (batch)",
+   "in": 0.05,
+   "out": 0.25,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-sol",
+   "name": "OpenAI: GPT-6 Sol",
+   "in": 2.0,
+   "out": 10.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-sol-pro",
+   "name": "OpenAI: GPT-6 Sol Pro",
+   "in": 2.0,
+   "out": 10.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-sol-pro:batch",
+   "name": "OpenAI: GPT-6 Sol Pro (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6-sol:batch",
+   "name": "OpenAI: GPT-6 Sol (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-oss-20b:batch",
+   "name": "OpenAI: gpt-oss-20b (batch)",
+   "in": 0.024,
+   "out": 0.112,
+   "ctx": 131072
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "qwen/qwen3.8-omni-flash",
+   "name": "Qwen: Qwen3.8 Omni Flash",
+   "in": 0.15,
+   "out": 0.47,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "upstage/solar-mini4",
+   "name": "Upstage: Solar Mini 4",
+   "in": 0.05,
+   "out": 0.2,
+   "ctx": 524288
+  },
+  {
+   "type": "REMOVED",
+   "model": "deepseek/deepseek-v4-flash-0731:batch",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+   "in": 0.11,
+   "out": 0.33
+  },
+  {
+   "type": "REMOVED",
+   "model": "deepseek/deepseek-v4-flash-vision-exp:batch",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
+   "in": 0.11,
+   "out": 0.33
+  },
+  {
+   "type": "REMOVED",
+   "model": "deepseek/deepseek-v4-pro-0813:batch",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+   "in": 0.66,
+   "out": 1.98
+  },
+  {
+   "type": "REMOVED",
+   "model": "meta/muse-glimmer-30b:batch",
+   "name": "Meta: Muse Glimmer 30B (batch)",
+   "in": 0.175,
+   "out": 0.75
+  },
+  {
+   "type": "REMOVED",
+   "model": "z-ai/glm-5.2:batch",
+   "name": "Z.ai: GLM 5.2 (batch)",
+   "in": 0.7,
+   "out": 2.2
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813",
+   "side": "in",
+   "old": 0.66,
+   "new": 0.498696,
+   "pct": -24.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro-0813",
+   "name": "DeepSeek: DeepSeek V4 Pro 0813",
+   "side": "out",
+   "old": 1.98,
+   "new": 1.496088,
+   "pct": -24.44
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "side": "in",
+   "old": 0.07,
+   "new": 0.08,
+   "pct": 14.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.018,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "out",
+   "old": 0.13,
+   "new": 0.09,
+   "pct": -30.77
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.32,
+   "pct": 6.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 2.0,
+   "new": 2.7,
+   "pct": 35.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "in",
+   "old": 0.075,
+   "new": 0.06,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "out",
+   "old": 0.25,
+   "new": 0.2,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3:batch",
+   "name": "Z.ai: GLM 5.3 (batch)",
+   "side": "in",
+   "old": 0.7,
+   "new": 0.72,
+   "pct": 2.86
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3:batch",
+   "name": "Z.ai: GLM 5.3 (batch)",
+   "side": "out",
+   "old": 2.2,
+   "new": 2.4,
+   "pct": 9.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~anthropic/claude-opus-latest",
+   "name": "Anthropic: Claude Opus Latest",
+   "side": "in",
+   "old": 5.0,
+   "new": 4.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~anthropic/claude-opus-latest",
+   "name": "Anthropic: Claude Opus Latest",
+   "side": "out",
+   "old": 25.0,
+   "new": 20.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.12,
+   "new": 0.1,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.48,
+   "new": 0.5,
+   "pct": 4.17
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.624,
+   "new": 0.4,
+   "pct": -35.9
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "out",
+   "old": 2.88,
+   "new": 4.3,
+   "pct": 49.31
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.038,
+   "pct": 26.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 1.0,
+   "new": 0.55,
+   "pct": -45.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 7.5,
+   "new": 10.758,
+   "pct": 43.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~openai/gpt-luna-latest",
+   "name": "OpenAI: GPT Luna Latest",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.1,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~openai/gpt-luna-latest",
+   "name": "OpenAI: GPT Luna Latest",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.5,
+   "pct": -58.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 0.6545,
+   "new": 0.5625,
+   "pct": -14.06
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 2.057,
+   "new": 2.5,
+   "pct": 21.54
+  }
+ ],
+ "impacto": null
+}
