@@ -1,0 +1,202 @@
+{
+ "ts": "2026-09-25T113558",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "mistralai/devstral-2512",
+   "name": "Mistral: Devstral 2 2512",
+   "in": 0.4,
+   "out": 2.0,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "mistralai/mistral-large-2512",
+   "name": "Mistral: Mistral Large 3 2512",
+   "in": 0.5,
+   "out": 1.5,
+   "ctx": 262144
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.088606,
+   "new": 0.049,
+   "pct": -44.7
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.177212,
+   "new": 0.098,
+   "pct": -44.7
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.9396,
+   "new": 0.783,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 1.8792,
+   "new": 1.566,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.14,
+   "new": 0.15,
+   "pct": 7.14
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 0.42,
+   "new": 0.6,
+   "pct": 42.86
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "in",
+   "old": 0.13,
+   "new": 0.15,
+   "pct": 15.38
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-vl-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 VL 30B A3B Instruct",
+   "side": "out",
+   "old": 0.52,
+   "new": 0.6,
+   "pct": 15.38
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.7",
+   "name": "Z.ai: GLM 4.7",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.6,
+   "pct": 50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.7",
+   "name": "Z.ai: GLM 4.7",
+   "side": "out",
+   "old": 1.75,
+   "new": 2.2,
+   "pct": 25.71
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "in",
+   "old": 0.84,
+   "new": 1.4,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "out",
+   "old": 2.64,
+   "new": 4.4,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.045,
+   "pct": -70.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.14,
+   "pct": -72.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 1.0,
+   "new": 0.49,
+   "pct": -51.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.39,
+   "new": 0.2528,
+   "pct": -35.18
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "out",
+   "old": 2.9,
+   "new": 2.88,
+   "pct": -0.69
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 1.4,
+   "new": 0.8845,
+   "pct": -36.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 10.75,
+   "new": 10.5346,
+   "pct": -2.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 2.5,
+   "new": 1.7644,
+   "pct": -29.42
+  }
+ ],
+ "impacto": null
+}
