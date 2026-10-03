@@ -1,0 +1,229 @@
+{
+ "ts": "2026-10-03T112711",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "inclusionai/ling-3.1-flash",
+   "name": "inclusionAI: Ling 3.1 Flash",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "nvidia/switchyard",
+   "name": "NVIDIA: Switchyard",
+   "in": null,
+   "out": null,
+   "ctx": 1000000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.1-terminus",
+   "name": "DeepSeek: DeepSeek V3.1 Terminus",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.27,
+   "pct": -10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.042,
+   "new": 0.028,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.084,
+   "new": 0.056,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.0115,
+   "new": 0.0188,
+   "pct": 63.48
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.0675,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.225,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "inclusionai/ling-3.0-flash-fin",
+   "name": "inclusionAI: Ling 3.0 Flash Fin",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.042,
+   "pct": -30.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "inclusionai/ling-3.0-flash-fin",
+   "name": "inclusionAI: Ling 3.0 Flash Fin",
+   "side": "out",
+   "old": 0.18,
+   "new": 0.1232,
+   "pct": -31.56
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.43415,
+   "new": 0.95,
+   "pct": 118.82
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "out",
+   "old": 1.828,
+   "new": 4.0,
+   "pct": 118.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.0595,
+   "pct": -0.83
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "side": "out",
+   "old": 0.16,
+   "new": 0.17,
+   "pct": 6.25
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 0.9646,
+   "new": 1.4,
+   "pct": 45.14
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 3.0316,
+   "new": 4.4,
+   "pct": 45.14
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.015,
+   "new": 0.02,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.6,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.132,
+   "new": 0.12,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "out",
+   "old": 0.396,
+   "new": 4.2,
+   "pct": 960.61
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.008625,
+   "new": 0.0188,
+   "pct": 117.97
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 1.6,
+   "new": 1.28,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 1.39,
+   "new": 0.9895,
+   "pct": -28.81
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.02625,
+   "new": 0.035,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.9,
+   "new": 0.5,
+   "pct": -44.44
+  }
+ ],
+ "impacto": null
+}
