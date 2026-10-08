@@ -1,0 +1,397 @@
+{
+ "ts": "2026-10-08T131140",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-haiku-5.5",
+   "name": "Anthropic: Claude Haiku 5.5",
+   "in": 0.1,
+   "out": 0.5,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "anthropic/claude-haiku-5.5:batch",
+   "name": "Anthropic: Claude Haiku 5.5 (batch)",
+   "in": 0.05,
+   "out": 0.25,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "stepfun/step-5-preview",
+   "name": "StepFun: Step 5 Preview",
+   "in": 1.0,
+   "out": 2.7,
+   "ctx": 1000000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v3.2",
+   "name": "DeepSeek: DeepSeek V3.2",
+   "side": "in",
+   "old": 0.28,
+   "new": 0.259,
+   "pct": -7.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.0057,
+   "pct": -81.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.018,
+   "new": 0.0046,
+   "pct": -74.44
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.2088,
+   "new": 0.29232,
+   "pct": 40.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 0.4176,
+   "new": 0.58464,
+   "pct": 40.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.0356,
+   "pct": -28.8
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.0,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "side": "in",
+   "old": 0.22,
+   "new": 0.1,
+   "pct": -54.55
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.32,
+   "pct": -36.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.6",
+   "name": "MoonshotAI: Kimi K2.6",
+   "side": "in",
+   "old": 0.465,
+   "new": 0.4485,
+   "pct": -3.55
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "side": "out",
+   "old": 15.0,
+   "new": 12.3,
+   "pct": -18.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-nano-30b-a3b",
+   "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.06,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-nano-30b-a3b",
+   "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.24,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.085,
+   "pct": 6.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "side": "out",
+   "old": 0.45,
+   "new": 0.4,
+   "pct": -11.11
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.049,
+   "pct": -18.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "side": "out",
+   "old": 0.16,
+   "new": 0.14,
+   "pct": -12.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.15,
+   "pct": 50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "out",
+   "old": 1.1,
+   "new": 1.5,
+   "pct": 36.36
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "in",
+   "old": 0.195,
+   "new": 0.26,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "out",
+   "old": 1.56,
+   "new": 2.6,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.45,
+   "pct": 50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 2.0,
+   "new": 2.7,
+   "pct": 35.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.171,
+   "new": 0.03,
+   "pct": -82.46
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 7.2,
+   "new": 10.0,
+   "pct": 38.89
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "in",
+   "old": 0.07,
+   "new": 0.049,
+   "pct": -30.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "out",
+   "old": 7.0,
+   "new": 3.39,
+   "pct": -51.57
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~anthropic/claude-haiku-latest",
+   "name": "Anthropic: Claude Haiku Latest",
+   "side": "in",
+   "old": 1.0,
+   "new": 0.1,
+   "pct": -90.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~anthropic/claude-haiku-latest",
+   "name": "Anthropic: Claude Haiku Latest",
+   "side": "out",
+   "old": 5.0,
+   "new": 0.5,
+   "pct": -90.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "~anthropic/claude-haiku-latest",
+   "name": "Anthropic: Claude Haiku Latest",
+   "old": 200000,
+   "new": 1000000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.0356,
+   "pct": -28.8
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.0,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.108,
+   "pct": -73.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "out",
+   "old": 4.3,
+   "new": 8.0,
+   "pct": 86.05
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.018,
+   "new": 0.00368,
+   "pct": -79.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 1.28,
+   "new": 0.344394,
+   "pct": -73.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 0.61,
+   "new": 0.45,
+   "pct": -26.23
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.036,
+   "new": 0.032,
+   "pct": -11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.5,
+   "new": 3.669545,
+   "pct": 633.91
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 0.063,
+   "new": 0.036,
+   "pct": -42.86
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 6.3,
+   "new": 12.0,
+   "pct": 90.48
+  }
+ ],
+ "impacto": null
+}
