@@ -1,0 +1,156 @@
+{
+ "ts": "2026-10-22T113257",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "recursive/flint-v1.0:free",
+   "name": "Recursive: Flint (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 262144
+  },
+  {
+   "type": "REMOVED",
+   "model": "google/gemini-2.5-flash-lite:batch",
+   "name": "Google: Gemini 2.5 Flash Lite (batch)",
+   "in": 0.05,
+   "out": 0.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.049,
+   "new": 0.3,
+   "pct": 512.24
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 0.375,
+   "new": 1.2,
+   "pct": 220.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-122b-a10b",
+   "name": "Qwen: Qwen3.5-122B-A10B",
+   "side": "in",
+   "old": 0.26,
+   "new": 0.4,
+   "pct": 53.85
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-122b-a10b",
+   "name": "Qwen: Qwen3.5-122B-A10B",
+   "side": "out",
+   "old": 2.08,
+   "new": 3.2,
+   "pct": 53.85
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "in",
+   "old": 0.39,
+   "new": 0.5,
+   "pct": 28.21
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "out",
+   "old": 2.34,
+   "new": 3.6,
+   "pct": 53.85
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "reflection/beam-1.0-501b-a23b",
+   "name": "Reflection: Beam 1.0 501B A23B",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.25,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.0052,
+   "pct": -96.53
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.1985,
+   "pct": -60.3
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.049,
+   "new": 0.07,
+   "pct": 42.86
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.375,
+   "new": 0.5,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.225,
+   "new": 0.2503,
+   "pct": 11.24
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 24.0,
+   "new": 16.0,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.051691,
+   "new": 0.0052,
+   "pct": -89.94
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.12,
+   "new": 0.1985,
+   "pct": 65.42
+  }
+ ],
+ "impacto": null
+}
