@@ -1,0 +1,84 @@
+{
+ "ts": "2026-10-23T112219",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "in": 0.15,
+   "out": 0.6,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "minimax/minimax-m3.1-flash:free",
+   "name": "MiniMax: MiniMax M3.1 Flash (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "in",
+   "old": 0.09375,
+   "new": 0.075,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "out",
+   "old": 0.25,
+   "new": 0.2,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-9b",
+   "name": "Qwen: Qwen3.5-9B",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.17,
+   "pct": 112.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-9b",
+   "name": "Qwen: Qwen3.5-9B",
+   "side": "out",
+   "old": 0.13,
+   "new": 0.25,
+   "pct": 92.31
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "in",
+   "old": 0.04,
+   "new": 0.2,
+   "pct": 400.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "out",
+   "old": 1.35,
+   "new": 2.5,
+   "pct": 85.19
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.2503,
+   "new": 0.2565,
+   "pct": 2.48
+  }
+ ],
+ "impacto": null
+}

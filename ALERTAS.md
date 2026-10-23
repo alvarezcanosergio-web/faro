@@ -1,34 +1,26 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-10-22T113257 UTC** | Modelos vigilados: **468**
+Ultima vigilancia: **2026-10-23T112219 UTC** | Modelos vigilados: **468**
 
-**Resumen:** 10 subidas | 5 bajadas | 1 lanzamientos | 1 retiradas | 0 cambios de contexto
+**Resumen:** 5 subidas | 2 bajadas | 1 lanzamientos | 1 retiradas | 0 cambios de contexto
 
 ## Subidas de precio
 
-- **`deepseek/deepseek-v4.1-flash`** (in): $0.05/M -> $0.30/M (**+512.2%**)
-- **`deepseek/deepseek-v4.1-flash`** (out): $0.38/M -> $1.20/M (**+220.0%**)
-- **`~z-ai/glm-flash-latest`** (out): $0.12/M -> $0.20/M (**+65.4%**)
-- **`qwen/qwen3.5-122b-a10b`** (in): $0.26/M -> $0.40/M (**+53.9%**)
-- **`qwen/qwen3.5-122b-a10b`** (out): $2.08/M -> $3.20/M (**+53.9%**)
-- **`qwen/qwen3.5-397b-a17b`** (out): $2.34/M -> $3.60/M (**+53.9%**)
-- **`~deepseek/deepseek-flash-latest`** (in): $0.05/M -> $0.07/M (**+42.9%**)
-- **`~deepseek/deepseek-flash-latest`** (out): $0.38/M -> $0.50/M (**+33.3%**)
-- **`qwen/qwen3.5-397b-a17b`** (in): $0.39/M -> $0.50/M (**+28.2%**)
-- **`~deepseek/deepseek-pro-latest`** (in): $0.23/M -> $0.25/M (**+11.2%**)
+- **`qwen/qwen3.8-27b`** (in): $0.04/M -> $0.20/M (**+400.0%**)
+- **`qwen/qwen3.5-9b`** (in): $0.08/M -> $0.17/M (**+112.5%**)
+- **`qwen/qwen3.5-9b`** (out): $0.13/M -> $0.25/M (**+92.3%**)
+- **`qwen/qwen3.8-27b`** (out): $1.35/M -> $2.50/M (**+85.2%**)
+- **`~deepseek/deepseek-pro-latest`** (in): $0.25/M -> $0.26/M (**+2.5%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `z-ai/glm-5.3-flash` (in): $0.15/M -> $0.01/M (-96.5%)
-- `~z-ai/glm-flash-latest` (in): $0.05/M -> $0.01/M (-89.9%)
-- `z-ai/glm-5.3-flash` (out): $0.50/M -> $0.20/M (-60.3%)
-- `~moonshotai/kimi-latest` (out): $24.00/M -> $16.00/M (-33.3%)
-- `reflection/beam-1.0-501b-a23b` (in): $0.30/M -> $0.25/M (-16.7%)
+- `mistralai/mistral-small-3.2-24b-instruct` (in): $0.09/M -> $0.07/M (-20.0%)
+- `mistralai/mistral-small-3.2-24b-instruct` (out): $0.25/M -> $0.20/M (-20.0%)
 
 ## Nuevos modelos
 
-- `recursive/flint-v1.0:free` entrada $0.00/M / salida $0.00/M / ctx 262144
+- `minimax/minimax-m3.1-flash` entrada $0.15/M / salida $0.60/M / ctx 1048576
 
 ## Modelos retirados
 
-- `google/gemini-2.5-flash-lite:batch`
+- `minimax/minimax-m3.1-flash:free`
