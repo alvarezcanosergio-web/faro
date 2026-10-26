@@ -1,0 +1,213 @@
+{
+ "ts": "2026-10-26T124011",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.0422,
+   "new": 0.44,
+   "pct": 942.65
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.1694,
+   "new": 1.32,
+   "pct": 679.22
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.2088,
+   "new": 0.95526,
+   "pct": 357.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 0.4176,
+   "new": 1.91052,
+   "pct": 357.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.0675,
+   "new": 0.09,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.225,
+   "new": 0.3,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "side": "in",
+   "old": 0.239,
+   "new": 0.17,
+   "pct": -28.87
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "side": "out",
+   "old": 10.8,
+   "new": 20.0,
+   "pct": 85.19
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-30b-a3b-instruct-2507",
+   "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-122b-a10b",
+   "name": "Qwen: Qwen3.5-122B-A10B",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.26,
+   "pct": -35.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-122b-a10b",
+   "name": "Qwen: Qwen3.5-122B-A10B",
+   "side": "out",
+   "old": 3.2,
+   "new": 2.08,
+   "pct": -35.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.32,
+   "pct": 28.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 2.0,
+   "new": 3.2,
+   "pct": 60.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "in",
+   "old": 0.079,
+   "new": 0.0699,
+   "pct": -11.52
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.1188,
+   "new": 0.2565,
+   "pct": 115.91
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.0422,
+   "new": 0.0475,
+   "pct": 12.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 0.1694,
+   "new": 0.1568,
+   "pct": -7.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 0.191,
+   "new": 0.17,
+   "pct": -10.99
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 16.0,
+   "new": 20.0,
+   "pct": 25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.0513,
+   "new": 0.0413,
+   "pct": -19.49
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.0701,
+   "new": 0.0758,
+   "pct": 8.13
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "in",
+   "old": 0.0703,
+   "new": 0.0699,
+   "pct": -0.57
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-latest",
+   "name": "Z.ai: GLM Latest",
+   "side": "out",
+   "old": 4.3843,
+   "new": 1.4,
+   "pct": -68.07
+  }
+ ],
+ "impacto": null
+}
