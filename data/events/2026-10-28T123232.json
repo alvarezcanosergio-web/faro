@@ -1,0 +1,201 @@
+{
+ "ts": "2026-10-28T123232",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "prism-ml/ternary-bonsai-2-9b",
+   "name": "PrismML: Ternary Bonsai 2 9B",
+   "in": 0.08,
+   "out": 0.13,
+   "ctx": 262144
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.091,
+   "pct": 82.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.45,
+   "new": 0.182,
+   "pct": -59.56
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "inclusionai/ling-3.1-flash",
+   "name": "inclusionAI: Ling 3.1 Flash",
+   "old": 262144,
+   "new": 1000000
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "name": "Meta: Llama 3.1 8B Instruct",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.02,
+   "pct": -60.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "meta-llama/llama-3.1-8b-instruct",
+   "name": "Meta: Llama 3.1 8B Instruct",
+   "side": "out",
+   "old": 0.08,
+   "new": 0.04,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k3",
+   "name": "MoonshotAI: Kimi K3",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.179,
+   "pct": -10.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.32,
+   "new": 0.45,
+   "pct": 40.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 3.2,
+   "new": 2.7,
+   "pct": -15.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.6-35b-a3b",
+   "name": "Qwen: Qwen3.6 35B A3B",
+   "side": "out",
+   "old": 0.95,
+   "new": 0.9,
+   "pct": -5.26
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.039,
+   "pct": -80.5
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "out",
+   "old": 2.5,
+   "new": 1.25,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 0.966,
+   "new": 1.4,
+   "pct": 44.93
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 3.036,
+   "new": 4.4,
+   "pct": 44.93
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.0341,
+   "new": 0.014,
+   "pct": -58.94
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.02,
+   "new": 0.0126,
+   "pct": -37.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 1.0,
+   "new": 1.8,
+   "pct": 80.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.2428,
+   "new": 0.2542,
+   "pct": 4.7
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 0.19,
+   "new": 0.179,
+   "pct": -5.79
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 10.5634,
+   "new": 20.0,
+   "pct": 89.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.0235,
+   "new": 0.0216,
+   "pct": -8.09
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.1046,
+   "new": 0.1324,
+   "pct": 26.58
+  }
+ ],
+ "impacto": null
+}
