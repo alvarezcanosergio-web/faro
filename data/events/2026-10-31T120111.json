@@ -1,0 +1,240 @@
+{
+ "ts": "2026-10-31T120111",
+ "events": [
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.816234,
+   "new": 1.6,
+   "pct": 96.02
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 1.632468,
+   "new": 3.2,
+   "pct": 96.02
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.0675,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.225,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.27,
+   "pct": -10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.95,
+   "pct": -20.83
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "particle-ai/particle-1",
+   "name": "Particle AI: Particle-1",
+   "side": "in",
+   "old": 0.25,
+   "new": 0.05,
+   "pct": -80.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "particle-ai/particle-1",
+   "name": "Particle AI: Particle-1",
+   "side": "out",
+   "old": 1.0,
+   "new": 0.5,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "in",
+   "old": 0.32,
+   "new": 0.45,
+   "pct": 40.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.6-27b",
+   "name": "Qwen: Qwen3.6 27B",
+   "side": "out",
+   "old": 3.2,
+   "new": 2.7,
+   "pct": -15.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.04,
+   "pct": -73.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "out",
+   "old": 1.875,
+   "new": 2.3,
+   "pct": 22.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 7.0,
+   "new": 6.8,
+   "pct": -2.86
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "in",
+   "old": 0.08,
+   "new": 0.0699,
+   "pct": -12.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "out",
+   "old": 3.6,
+   "new": 1.4,
+   "pct": -61.11
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.0163,
+   "pct": -89.13
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.1479,
+   "pct": -70.42
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.031,
+   "new": 0.0141,
+   "pct": -54.52
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.27,
+   "new": 0.144,
+   "pct": -46.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "out",
+   "old": 4.0,
+   "new": 8.0,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.056,
+   "new": 0.05764,
+   "pct": 2.93
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.17292,
+   "pct": -42.36
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 0.1529,
+   "new": 0.1495,
+   "pct": -2.22
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 10.5572,
+   "new": 7.15,
+   "pct": -32.27
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.0216,
+   "new": 0.0163,
+   "pct": -24.54
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.1142,
+   "new": 0.1479,
+   "pct": 29.51
+  }
+ ],
+ "impacto": null
+}
