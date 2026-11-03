@@ -1,0 +1,204 @@
+{
+ "ts": "2026-11-03T135707",
+ "events": [
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.119,
+   "new": 0.059,
+   "pct": -50.42
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.238,
+   "new": 0.3,
+   "pct": 26.05
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.095,
+   "new": 0.07,
+   "pct": -26.32
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.284,
+   "new": 0.211,
+   "pct": -25.7
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-3.1-70b-instruct",
+   "name": "Meta: Llama 3.1 70B Instruct",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.72,
+   "pct": 80.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-3.1-70b-instruct",
+   "name": "Meta: Llama 3.1 70B Instruct",
+   "side": "out",
+   "old": 0.4,
+   "new": 0.72,
+   "pct": 80.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.2,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "meta-llama/llama-3.3-70b-instruct",
+   "name": "Meta: Llama 3.3 70B Instruct",
+   "side": "out",
+   "old": 0.32,
+   "new": 0.52,
+   "pct": 62.5
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "side": "in",
+   "old": 0.075,
+   "new": 0.15,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.6,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-120b",
+   "name": "OpenAI: gpt-oss-120b",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.027,
+   "pct": -82.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-120b",
+   "name": "OpenAI: gpt-oss-120b",
+   "side": "out",
+   "old": 0.6,
+   "new": 0.101,
+   "pct": -83.17
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-coder-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+   "side": "in",
+   "old": 0.07,
+   "new": 0.15,
+   "pct": 114.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-coder-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+   "side": "out",
+   "old": 0.28,
+   "new": 0.6,
+   "pct": 114.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.0285,
+   "new": 0.0313,
+   "pct": 9.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.0923,
+   "new": 0.0846,
+   "pct": -8.34
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.315,
+   "pct": -37.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "in",
+   "old": 0.1495,
+   "new": 0.1558,
+   "pct": 4.21
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 7.15,
+   "new": 9.3388,
+   "pct": 30.61
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "in",
+   "old": 0.0285,
+   "new": 0.0313,
+   "pct": 9.82
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~z-ai/glm-flash-latest",
+   "name": "Z.ai: GLM Flash Latest",
+   "side": "out",
+   "old": 0.0923,
+   "new": 0.0846,
+   "pct": -8.34
+  }
+ ],
+ "impacto": null
+}
