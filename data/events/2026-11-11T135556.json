@@ -1,0 +1,240 @@
+{
+ "ts": "2026-11-11T135556",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "baidu/ernie-5.5-flash-preview:free",
+   "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+   "in": 0.0,
+   "out": 0.0,
+   "ctx": 1024000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "baidu/ernie-light-dt-1.0-intl",
+   "name": "Baidu: ERNIE-Light-DT-1.0",
+   "in": 1.13,
+   "out": 3.94,
+   "ctx": 1024000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-4-carbon",
+   "name": "Google: Gemini 4 Carbon",
+   "in": 2.0,
+   "out": 10.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-4-carbon:batch",
+   "name": "Google: Gemini 4 Carbon (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "kt/midm-k-3.0-pro",
+   "name": "KT: Mi:dm K 3.0 Pro",
+   "in": 0.2,
+   "out": 0.8,
+   "ctx": 261795
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "motif-technologies/motif-3",
+   "name": "Motif Technologies: Motif 3",
+   "in": 0.3,
+   "out": 1.2,
+   "ctx": 262144
+  },
+  {
+   "type": "REMOVED",
+   "model": "bytedance-seed/seed-1.6",
+   "name": "ByteDance Seed: Seed 1.6",
+   "in": 0.25,
+   "out": 2.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "bytedance-seed/seed-1.6-flash",
+   "name": "ByteDance Seed: Seed 1.6 Flash",
+   "in": 0.075,
+   "out": 0.3
+  },
+  {
+   "type": "REMOVED",
+   "model": "bytedance-seed/seed-2.0-code",
+   "name": "ByteDance Seed: Seed-2.0-Code",
+   "in": 0.5,
+   "out": 3.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "qwen/qwen-2.5-7b-instruct",
+   "name": "Qwen: Qwen2.5 7B Instruct",
+   "in": 0.1,
+   "out": 0.2
+  },
+  {
+   "type": "REMOVED",
+   "model": "xingchen-agi/xing4.0-29b-a4b:free",
+   "name": "XingChen: Xing4.0 29B A4B (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "in",
+   "old": 0.091,
+   "new": 0.09,
+   "pct": -1.1
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash",
+   "name": "DeepSeek: DeepSeek V4 Flash 0423",
+   "side": "out",
+   "old": 0.182,
+   "new": 0.18,
+   "pct": -1.1
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 0.95526,
+   "new": 0.892272,
+   "pct": -6.59
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 1.91052,
+   "new": 1.784544,
+   "pct": -6.59
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.051,
+   "pct": -83.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.567,
+   "pct": -52.75
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mancer/weaver",
+   "name": "Mancer: Weaver (alpha)",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.3,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mancer/weaver",
+   "name": "Mancer: Weaver (alpha)",
+   "side": "out",
+   "old": 0.75,
+   "new": 0.5,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.27,
+   "pct": -10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 1.2,
+   "new": 1.08,
+   "pct": -10.0
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "nvidia/nemotron-3-super-120b-a12b",
+   "name": "NVIDIA: Nemotron 3 Super",
+   "old": 1048576,
+   "new": 262144
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "undi95/remm-slerp-l2-13b",
+   "name": "ReMM SLERP 13B",
+   "side": "in",
+   "old": 0.35,
+   "new": 0.3,
+   "pct": -14.29
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "undi95/remm-slerp-l2-13b",
+   "name": "ReMM SLERP 13B",
+   "side": "out",
+   "old": 0.65,
+   "new": 0.5,
+   "pct": -23.08
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 1.4,
+   "new": 1.33,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 4.4,
+   "new": 4.18,
+   "pct": -5.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.047,
+   "pct": 56.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~moonshotai/kimi-latest",
+   "name": "MoonshotAI: Kimi Latest",
+   "side": "out",
+   "old": 9.3388,
+   "new": 11.0055,
+   "pct": 17.85
+  }
+ ],
+ "impacto": null
+}
