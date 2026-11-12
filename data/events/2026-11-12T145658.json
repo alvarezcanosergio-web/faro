@@ -1,0 +1,220 @@
+{
+ "ts": "2026-11-12T145658",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "moonshotai/kimi-k3.1-pro:batch",
+   "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+   "in": 0.7,
+   "out": 6.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "unbiased/pareto-26.10-preview",
+   "name": "Pareto 26.10 Preview",
+   "in": 0.8,
+   "out": 3.2,
+   "ctx": 1048576
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.051,
+   "new": 0.3,
+   "pct": 488.24
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 0.567,
+   "new": 1.2,
+   "pct": 111.64
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "side": "in",
+   "old": 0.006,
+   "new": 0.15,
+   "pct": 2400.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.6,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+   "side": "in",
+   "old": 0.011,
+   "new": 0.05,
+   "pct": 354.55
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.15,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "out",
+   "old": 0.45,
+   "new": 0.35,
+   "pct": -22.22
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "ibm-granite/granite-4.2-8b",
+   "name": "IBM: Granite 4.2 8B",
+   "side": "out",
+   "old": 0.25,
+   "new": 0.15,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "name": "MoonshotAI: Kimi K3.1 Pro",
+   "side": "in",
+   "old": 2.0,
+   "new": 0.2375,
+   "pct": -88.12
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "name": "MoonshotAI: Kimi K3.1 Pro",
+   "side": "out",
+   "old": 10.0,
+   "new": 8.7856,
+   "pct": -12.14
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-5.6-sol",
+   "name": "OpenAI: GPT-5.6 Sol",
+   "side": "in",
+   "old": 4.0,
+   "new": 4.4,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-5.6-sol",
+   "name": "OpenAI: GPT-5.6 Sol",
+   "side": "out",
+   "old": 20.0,
+   "new": 22.0,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.12,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-14b",
+   "name": "Qwen: Qwen3 14B",
+   "side": "out",
+   "old": 0.22,
+   "new": 0.24,
+   "pct": 9.09
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 1.33,
+   "new": 1.4,
+   "pct": 5.26
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 4.18,
+   "new": 4.4,
+   "pct": 5.26
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2:batch",
+   "name": "Z.ai: GLM 5.2 (batch)",
+   "side": "in",
+   "old": 0.527,
+   "new": 0.322,
+   "pct": -38.9
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2:batch",
+   "name": "Z.ai: GLM 5.2 (batch)",
+   "side": "out",
+   "old": 1.075,
+   "new": 0.989,
+   "pct": -8.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "in",
+   "old": 0.047,
+   "new": 0.05,
+   "pct": 6.38
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.3-flash:batch",
+   "name": "Z.ai: GLM 5.3 Flash (batch)",
+   "side": "out",
+   "old": 0.061,
+   "new": 0.18,
+   "pct": 195.08
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.006,
+   "new": 0.022,
+   "pct": 266.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.4,
+   "pct": -20.0
+  }
+ ],
+ "impacto": null
+}
