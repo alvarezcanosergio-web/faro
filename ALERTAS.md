@@ -1,38 +1,52 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-11-12T145658 UTC** | Modelos vigilados: **468**
+Ultima vigilancia: **2026-11-13T142243 UTC** | Modelos vigilados: **470**
 
-**Resumen:** 14 subidas | 8 bajadas | 2 lanzamientos | 0 retiradas | 0 cambios de contexto
+**Resumen:** 12 subidas | 13 bajadas | 4 lanzamientos | 2 retiradas | 1 cambios de contexto
 
 ## Subidas de precio
 
-- **`deepseek/deepseek-v4.1-flash-1017`** (in): $0.01/M -> $0.15/M (**+2400.0%**)
-- **`deepseek/deepseek-v4.1-flash`** (in): $0.05/M -> $0.30/M (**+488.2%**)
-- **`deepseek/deepseek-v4.1-flash-1017:batch`** (in): $0.01/M -> $0.05/M (**+354.6%**)
-- **`~deepseek/deepseek-flash-latest`** (in): $0.01/M -> $0.02/M (**+266.7%**)
-- **`z-ai/glm-5.3-flash:batch`** (out): $0.06/M -> $0.18/M (**+195.1%**)
-- **`deepseek/deepseek-v4.1-flash`** (out): $0.57/M -> $1.20/M (**+111.6%**)
-- **`deepseek/deepseek-v4.1-flash-1017`** (out): $0.50/M -> $0.60/M (**+20.0%**)
-- **`qwen/qwen3-14b`** (in): $0.10/M -> $0.12/M (**+20.0%**)
-- **`openai/gpt-5.6-sol`** (in): $4.00/M -> $4.40/M (**+10.0%**)
-- **`openai/gpt-5.6-sol`** (out): $20.00/M -> $22.00/M (**+10.0%**)
-- **`qwen/qwen3-14b`** (out): $0.22/M -> $0.24/M (**+9.1%**)
-- **`z-ai/glm-5.3-flash:batch`** (in): $0.05/M -> $0.05/M (**+6.4%**)
-- **`z-ai/glm-5.1`** (in): $1.33/M -> $1.40/M (**+5.3%**)
-- **`z-ai/glm-5.1`** (out): $4.18/M -> $4.40/M (**+5.3%**)
+- **`moonshotai/kimi-k3.1-pro`** (in): $0.24/M -> $2.00/M (**+742.1%**)
+- **`google/gemma-4-26b-a4b-it`** (out): $0.10/M -> $0.30/M (**+200.0%**)
+- **`z-ai/glm-5.3`** (out): $1.40/M -> $3.60/M (**+157.1%**)
+- **`~google/gemini-flash-latest`** (in): $0.75/M -> $1.50/M (**+100.0%**)
+- **`~google/gemini-flash-latest`** (out): $3.75/M -> $7.50/M (**+100.0%**)
+- **`~deepseek/deepseek-flash-latest`** (in): $0.02/M -> $0.04/M (**+72.7%**)
+- **`ibm-granite/granite-4.2-8b`** (out): $0.15/M -> $0.25/M (**+66.7%**)
+- **`~deepseek/deepseek-flash-latest`** (out): $0.40/M -> $0.50/M (**+25.0%**)
+- **`z-ai/glm-5.3`** (in): $0.07/M -> $0.08/M (**+20.2%**)
+- **`moonshotai/kimi-k3.1-pro`** (out): $8.79/M -> $10.00/M (**+13.8%**)
+- **`google/gemma-4-26b-a4b-it`** (in): $0.08/M -> $0.09/M (**+12.5%**)
+- **`deepseek/deepseek-v4-pro`** (in): $0.89/M -> $0.90/M (**+0.9%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `moonshotai/kimi-k3.1-pro` (in): $2.00/M -> $0.24/M (-88.1%)
-- `ibm-granite/granite-4.2-8b` (out): $0.25/M -> $0.15/M (-40.0%)
-- `z-ai/glm-5.2:batch` (in): $0.53/M -> $0.32/M (-38.9%)
-- `deepseek/deepseek-v4.1-flash-1017:batch` (out): $0.20/M -> $0.15/M (-25.0%)
-- `google/gemma-3-27b-it` (out): $0.45/M -> $0.35/M (-22.2%)
-- `~deepseek/deepseek-flash-latest` (out): $0.50/M -> $0.40/M (-20.0%)
-- `moonshotai/kimi-k3.1-pro` (out): $10.00/M -> $8.79/M (-12.1%)
-- `z-ai/glm-5.2:batch` (out): $1.07/M -> $0.99/M (-8.0%)
+- `deepseek/deepseek-v4.1-flash-1017` (in): $0.15/M -> $0.04/M (-74.7%)
+- `qwen/qwen3.5-9b` (in): $0.17/M -> $0.07/M (-58.8%)
+- `qwen/qwen3.5-9b` (out): $0.25/M -> $0.10/M (-58.8%)
+- `xiaomi/mimo-v2.5-pro` (out): $1.80/M -> $0.87/M (-51.7%)
+- `ricursiveai/ripple-65b-preview` (in): $0.20/M -> $0.10/M (-50.0%)
+- `ricursiveai/ripple-65b-preview` (out): $0.60/M -> $0.30/M (-50.0%)
+- `moonshotai/kimi-k2.5` (out): $3.33/M -> $2.50/M (-24.8%)
+- `deepseek/deepseek-v4.1-flash-1017` (out): $0.60/M -> $0.50/M (-16.7%)
+- `deepseek/deepseek-v4-pro` (out): $1.78/M -> $1.50/M (-15.9%)
+- `minimax/minimax-m2.5` (out): $1.08/M -> $0.95/M (-12.0%)
+- `xiaomi/mimo-v2.5-pro` (in): $0.48/M -> $0.43/M (-9.4%)
+- `moonshotai/kimi-k2.5` (in): $0.53/M -> $0.50/M (-6.0%)
+- `~moonshotai/kimi-latest` (out): $11.01/M -> $10.61/M (-3.6%)
 
 ## Nuevos modelos
 
-- `moonshotai/kimi-k3.1-pro:batch` entrada $0.70/M / salida $6.00/M / ctx 1048576
-- `unbiased/pareto-26.10-preview` entrada $0.80/M / salida $3.20/M / ctx 1048576
+- `google/gemini-4-hydrogen` entrada $1.50/M / salida $7.50/M / ctx 1048576
+- `google/gemini-4-hydrogen:batch` entrada $0.75/M / salida $3.75/M / ctx 1048576
+- `particle-ai/particle-1:free` entrada $0.00/M / salida $0.00/M / ctx 1048576
+- `thinkingmachines/inkling-2-small` entrada $0.30/M / salida $1.00/M / ctx 1048576
+
+## Modelos retirados
+
+- `liquid/lfm-2.5-2.6b`
+- `liquid/lfm-2.5-2.6b:free`
+
+## Cambios de contexto
+
+- `minimax/minimax-m2.5`: 200,000 -> 198,000 tokens
