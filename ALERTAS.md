@@ -1,32 +1,37 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-11-14T131850 UTC** | Modelos vigilados: **471**
+Ultima vigilancia: **2026-11-15T134654 UTC** | Modelos vigilados: **467**
 
-**Resumen:** 6 subidas | 7 bajadas | 1 lanzamientos | 0 retiradas | 1 cambios de contexto
+**Resumen:** 7 subidas | 12 bajadas | 0 lanzamientos | 4 retiradas | 0 cambios de contexto
 
 ## Subidas de precio
 
-- **`qwen/qwen3.5-9b`** (in): $0.07/M -> $0.17/M (**+142.9%**)
-- **`qwen/qwen3.5-9b`** (out): $0.10/M -> $0.25/M (**+142.7%**)
-- **`deepseek/deepseek-chat`** (out): $0.89/M -> $1.03/M (**+15.6%**)
-- **`~moonshotai/kimi-latest`** (out): $10.61/M -> $11.01/M (**+3.8%**)
-- **`meta-llama/llama-3.2-3b-instruct`** (in): $0.05/M -> $0.05/M (**+1.8%**)
-- **`meta-llama/llama-3.2-3b-instruct`** (out): $0.33/M -> $0.34/M (**+1.5%**)
+- **`deepseek/deepseek-v4.1-flash-1017`** (in): $0.04/M -> $0.15/M (**+294.7%**)
+- **`deepseek/deepseek-v4.1-flash-1017:batch`** (out): $0.15/M -> $0.32/M (**+112.0%**)
+- **`deepseek/deepseek-v4.1-flash-1017`** (out): $0.50/M -> $0.60/M (**+20.0%**)
+- **`particle-ai/particle-1`** (in): $0.05/M -> $0.06/M (**+20.0%**)
+- **`openai/gpt-5.6-sol`** (in): $4.00/M -> $4.40/M (**+10.0%**)
+- **`openai/gpt-5.6-sol`** (out): $20.00/M -> $22.00/M (**+10.0%**)
+- **`nvidia/nemotron-3.5-super-vl`** (out): $0.47/M -> $0.50/M (**+6.4%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `deepseek/deepseek-v4.1-flash` (in): $0.30/M -> $0.05/M (-83.1%)
-- `deepseek/deepseek-v4.1-flash` (out): $1.20/M -> $0.20/M (-83.1%)
-- `google/gemma-4-26b-a4b-it` (in): $0.09/M -> $0.07/M (-25.0%)
-- `google/gemma-4-26b-a4b-it` (out): $0.30/M -> $0.23/M (-25.0%)
-- `deepseek/deepseek-chat` (in): $0.32/M -> $0.26/M (-19.6%)
-- `openai/gpt-5.6-sol` (in): $4.40/M -> $4.00/M (-9.1%)
-- `openai/gpt-5.6-sol` (out): $22.00/M -> $20.00/M (-9.1%)
+- `moonshotai/kimi-k3.1-pro` (in): $2.00/M -> $0.24/M (-88.0%)
+- `qwen/qwen3.5-9b` (out): $0.25/M -> $0.03/M (-87.2%)
+- `qwen/qwen3.5-9b` (in): $0.17/M -> $0.02/M (-87.1%)
+- `~deepseek/deepseek-flash-latest` (out): $0.50/M -> $0.11/M (-78.4%)
+- `moonshotai/kimi-k3.1-pro:batch` (in): $0.70/M -> $0.28/M (-60.7%)
+- `~deepseek/deepseek-flash-latest` (in): $0.04/M -> $0.02/M (-47.4%)
+- `ibm-granite/granite-4.2-8b` (out): $0.25/M -> $0.15/M (-40.0%)
+- `z-ai/glm-4.7` (in): $0.60/M -> $0.40/M (-33.3%)
+- `moonshotai/kimi-k3.1-pro:batch` (out): $6.00/M -> $4.12/M (-31.2%)
+- `deepseek/deepseek-v4.1-flash-1017:batch` (in): $0.05/M -> $0.04/M (-28.0%)
+- `z-ai/glm-4.7` (out): $2.20/M -> $1.75/M (-20.4%)
+- `moonshotai/kimi-k3.1-pro` (out): $10.00/M -> $8.40/M (-16.0%)
 
-## Nuevos modelos
+## Modelos retirados
 
-- `inclusionai/ling-3.2-flash:free` entrada $0.00/M / salida $0.00/M / ctx 1048576
-
-## Cambios de contexto
-
-- `qwen/qwen3.8-27b`: 1,048,575 -> 1,024,000 tokens
+- `qwen/qwen3-vl-30b-a3b-thinking`
+- `stepfun/step-3.5-flash`
+- `tencent/hunyuan-a13b-instruct`
+- `z-ai/glm-5.2:batch`
