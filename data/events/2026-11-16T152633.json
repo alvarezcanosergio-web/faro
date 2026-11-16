@@ -1,0 +1,283 @@
+{
+ "ts": "2026-11-16T152633",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "qwen/qwen4-max",
+   "name": "Qwen: Qwen4 Max",
+   "in": 1.5,
+   "out": 4.5,
+   "ctx": 1000000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "tencent/hy4-flash",
+   "name": "Tencent: Hy4 flash",
+   "in": 0.04375,
+   "out": 0.175625,
+   "ctx": 1048576
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.0434,
+   "new": 0.06,
+   "pct": 38.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.18,
+   "pct": -40.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.0507,
+   "new": 0.14,
+   "pct": 176.13
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 0.2028,
+   "new": 0.42,
+   "pct": 107.1
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+   "side": "in",
+   "old": 0.036,
+   "new": 0.035,
+   "pct": -2.78
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash-1017:batch",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
+   "side": "out",
+   "old": 0.318,
+   "new": 0.311,
+   "pct": -2.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.0675,
+   "new": 0.09,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.225,
+   "new": 0.3,
+   "pct": 33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.27,
+   "new": 0.295,
+   "pct": 9.26
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 0.95,
+   "new": 1.2,
+   "pct": 26.32
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.075,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "side": "out",
+   "old": 0.6,
+   "new": 0.3,
+   "pct": -50.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.7125,
+   "pct": 18.75
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3.1-pro:batch",
+   "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+   "side": "in",
+   "old": 0.275,
+   "new": 0.7,
+   "pct": 154.55
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3.1-pro:batch",
+   "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+   "side": "out",
+   "old": 4.125,
+   "new": 6.0,
+   "pct": 45.45
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol",
+   "name": "OpenAI: GPT-5.6 Sol",
+   "side": "in",
+   "old": 4.4,
+   "new": 4.0,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-5.6-sol",
+   "name": "OpenAI: GPT-5.6 Sol",
+   "side": "out",
+   "old": 22.0,
+   "new": 20.0,
+   "pct": -9.09
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.075,
+   "pct": 150.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "out",
+   "old": 0.13,
+   "new": 0.3,
+   "pct": 130.77
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "in",
+   "old": 0.6,
+   "new": 0.45,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-397b-a17b",
+   "name": "Qwen: Qwen3.5 397B A17B",
+   "side": "out",
+   "old": 3.6,
+   "new": 3.0,
+   "pct": -16.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-9b",
+   "name": "Qwen: Qwen3.5-9B",
+   "side": "in",
+   "old": 0.022,
+   "new": 0.074,
+   "pct": 236.36
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-9b",
+   "name": "Qwen: Qwen3.5-9B",
+   "side": "out",
+   "old": 0.032,
+   "new": 0.109,
+   "pct": 240.62
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-4.5-air",
+   "name": "Z.ai: GLM 4.5 Air",
+   "side": "in",
+   "old": 0.2,
+   "new": 0.13,
+   "pct": -35.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-4.5-air",
+   "name": "Z.ai: GLM 4.5 Air",
+   "side": "out",
+   "old": 1.1,
+   "new": 0.85,
+   "pct": -22.73
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "in",
+   "old": 0.084,
+   "new": 0.0699,
+   "pct": -16.79
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3",
+   "name": "Z.ai: GLM 5.3",
+   "side": "out",
+   "old": 3.6,
+   "new": 1.4,
+   "pct": -61.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.02,
+   "new": 0.036,
+   "pct": 80.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.108,
+   "new": 0.5,
+   "pct": 362.96
+  }
+ ],
+ "impacto": null
+}
