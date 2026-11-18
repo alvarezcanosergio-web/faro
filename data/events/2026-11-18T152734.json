@@ -1,0 +1,257 @@
+{
+ "ts": "2026-11-18T152734",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-astra",
+   "name": "OpenAI: GPT-6.2 Astra",
+   "in": 8.0,
+   "out": 40.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-astra-pro",
+   "name": "OpenAI: GPT-6.2 Astra Pro",
+   "in": 8.0,
+   "out": 40.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-astra-pro:batch",
+   "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+   "in": 4.0,
+   "out": 20.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-astra:batch",
+   "name": "OpenAI: GPT-6.2 Astra (batch)",
+   "in": 4.0,
+   "out": 20.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-sol",
+   "name": "OpenAI: GPT-6.2 Sol",
+   "in": 2.0,
+   "out": 10.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-sol-pro",
+   "name": "OpenAI: GPT-6.2 Sol Pro",
+   "in": 2.0,
+   "out": 10.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-sol-pro:batch",
+   "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "openai/gpt-6.2-sol:batch",
+   "name": "OpenAI: GPT-6.2 Sol (batch)",
+   "in": 1.0,
+   "out": 5.0,
+   "ctx": 1050000
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-r1-0528",
+   "name": "DeepSeek: R1 0528",
+   "side": "in",
+   "old": 0.5,
+   "new": 0.571,
+   "pct": 14.2
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-r1-0528",
+   "name": "DeepSeek: R1 0528",
+   "side": "out",
+   "old": 2.15,
+   "new": 2.286,
+   "pct": 6.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.0507,
+   "pct": -83.1
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.2028,
+   "pct": -83.1
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "out",
+   "old": 0.35,
+   "new": 0.45,
+   "pct": 28.57
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-medium-3",
+   "name": "Mistral: Mistral Medium 3",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.44,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-medium-3",
+   "name": "Mistral: Mistral Medium 3",
+   "side": "out",
+   "old": 2.0,
+   "new": 2.2,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-medium-3.1",
+   "name": "Mistral: Mistral Medium 3.1",
+   "side": "in",
+   "old": 0.4,
+   "new": 0.44,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "mistralai/mistral-medium-3.1",
+   "name": "Mistral: Mistral Medium 3.1",
+   "side": "out",
+   "old": 2.0,
+   "new": 2.2,
+   "pct": 10.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "in",
+   "old": 0.1,
+   "new": 0.075,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "mistralai/mistral-small-3.2-24b-instruct",
+   "name": "Mistral: Mistral Small 3.2 24B",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.2,
+   "pct": -33.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3-next-80b-a3b-instruct",
+   "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.1,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "in",
+   "old": 0.26,
+   "new": 0.3,
+   "pct": 15.38
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "out",
+   "old": 2.6,
+   "new": 2.4,
+   "pct": -7.69
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.06,
+   "pct": -60.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "out",
+   "old": 1.875,
+   "new": 2.2,
+   "pct": 17.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "xiaomi/mimo-v2.5-pro",
+   "name": "Xiaomi: MiMo-V2.5-Pro",
+   "side": "in",
+   "old": 0.435,
+   "new": 0.48,
+   "pct": 10.34
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "xiaomi/mimo-v2.5-pro",
+   "name": "Xiaomi: MiMo-V2.5-Pro",
+   "side": "out",
+   "old": 0.87,
+   "new": 1.8,
+   "pct": 106.9
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "xiaomi/mimo-v2.5-pro",
+   "name": "Xiaomi: MiMo-V2.5-Pro",
+   "old": 1024000,
+   "new": 262144
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~openai/gpt-astra-latest",
+   "name": "OpenAI: GPT Astra Latest",
+   "side": "in",
+   "old": 10.0,
+   "new": 8.0,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~openai/gpt-astra-latest",
+   "name": "OpenAI: GPT Astra Latest",
+   "side": "out",
+   "old": 50.0,
+   "new": 40.0,
+   "pct": -20.0
+  }
+ ],
+ "impacto": null
+}

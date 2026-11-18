@@ -1,45 +1,46 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-11-17T154747 UTC** | Modelos vigilados: **470**
+Ultima vigilancia: **2026-11-18T152734 UTC** | Modelos vigilados: **478**
 
-**Resumen:** 10 subidas | 20 bajadas | 1 lanzamientos | 0 retiradas | 1 cambios de contexto
+**Resumen:** 12 subidas | 8 bajadas | 8 lanzamientos | 0 retiradas | 1 cambios de contexto
 
 ## Subidas de precio
 
-- **`z-ai/glm-5.3-flash`** (out): $0.08/M -> $0.50/M (**+537.8%**)
-- **`z-ai/glm-5.3-flash`** (in): $0.04/M -> $0.15/M (**+275.9%**)
-- **`deepseek/deepseek-v4.1-flash`** (out): $0.42/M -> $1.20/M (**+185.7%**)
-- **`qwen/qwen3.5-9b`** (in): $0.07/M -> $0.17/M (**+129.7%**)
-- **`qwen/qwen3.5-9b`** (out): $0.11/M -> $0.25/M (**+129.4%**)
-- **`deepseek/deepseek-v4.1-flash`** (in): $0.14/M -> $0.30/M (**+114.3%**)
-- **`meta/muse-glimmer-30b`** (out): $1.20/M -> $1.50/M (**+25.0%**)
-- **`meta/muse-glimmer-30b`** (in): $0.30/M -> $0.35/M (**+16.7%**)
-- **`moonshotai/kimi-k2.7-code`** (out): $3.50/M -> $3.75/M (**+7.1%**)
-- **`deepseek/deepseek-v4.1-flash-1017:batch`** (in): $0.04/M -> $0.04/M (**+2.9%**)
+- **`xiaomi/mimo-v2.5-pro`** (out): $0.87/M -> $1.80/M (**+106.9%**)
+- **`google/gemma-3-27b-it`** (out): $0.35/M -> $0.45/M (**+28.6%**)
+- **`qwen/qwen3.8-27b`** (out): $1.88/M -> $2.20/M (**+17.3%**)
+- **`qwen/qwen3.5-27b`** (in): $0.26/M -> $0.30/M (**+15.4%**)
+- **`deepseek/deepseek-r1-0528`** (in): $0.50/M -> $0.57/M (**+14.2%**)
+- **`qwen/qwen3-next-80b-a3b-instruct`** (in): $0.09/M -> $0.10/M (**+11.1%**)
+- **`xiaomi/mimo-v2.5-pro`** (in): $0.43/M -> $0.48/M (**+10.3%**)
+- **`mistralai/mistral-medium-3`** (in): $0.40/M -> $0.44/M (**+10.0%**)
+- **`mistralai/mistral-medium-3`** (out): $2.00/M -> $2.20/M (**+10.0%**)
+- **`mistralai/mistral-medium-3.1`** (in): $0.40/M -> $0.44/M (**+10.0%**)
+- **`mistralai/mistral-medium-3.1`** (out): $2.00/M -> $2.20/M (**+10.0%**)
+- **`deepseek/deepseek-r1-0528`** (out): $2.15/M -> $2.29/M (**+6.3%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `deepseek/deepseek-v4.1-flash-1017` (in): $0.15/M -> $0.04/M (-76.0%)
-- `openai/gpt-oss-20b` (in): $0.07/M -> $0.02/M (-76.0%)
-- `openai/gpt-oss-20b` (out): $0.30/M -> $0.09/M (-70.0%)
-- `z-ai/glm-5.3-flash:batch` (out): $0.18/M -> $0.07/M (-61.7%)
-- `z-ai/glm-5.3-flash:batch` (in): $0.05/M -> $0.02/M (-52.0%)
-- `deepseek/deepseek-v4.1-flash-1017:batch` (out): $0.31/M -> $0.15/M (-51.8%)
-- `moonshotai/kimi-k3.1-pro:batch` (in): $0.70/M -> $0.37/M (-46.9%)
-- `z-ai/glm-5.3-prime` (in): $2.80/M -> $1.68/M (-40.0%)
-- `z-ai/glm-5.3-prime` (out): $8.80/M -> $5.28/M (-40.0%)
-- `z-ai/glm-5.3:batch` (in): $0.45/M -> $0.28/M (-37.6%)
-- `z-ai/glm-5.3:batch` (out): $2.00/M -> $1.25/M (-37.5%)
-- `tencent/hy4-flash` (in): $0.04/M -> $0.04/M (-20.0%)
-- `tencent/hy4-flash` (out): $0.18/M -> $0.14/M (-20.0%)
-- `deepseek/deepseek-v4.1-flash-1017` (out): $0.60/M -> $0.50/M (-16.7%)
-- `nvidia/nemotron-3-ultra-550b-a55b` (in): $0.60/M -> $0.50/M (-16.7%)
-- ... y 5 mas (ver events/*.json)
+- `deepseek/deepseek-v4.1-flash` (in): $0.30/M -> $0.05/M (-83.1%)
+- `deepseek/deepseek-v4.1-flash` (out): $1.20/M -> $0.20/M (-83.1%)
+- `qwen/qwen3.8-27b` (in): $0.15/M -> $0.06/M (-60.0%)
+- `mistralai/mistral-small-3.2-24b-instruct` (out): $0.30/M -> $0.20/M (-33.3%)
+- `mistralai/mistral-small-3.2-24b-instruct` (in): $0.10/M -> $0.07/M (-25.0%)
+- `~openai/gpt-astra-latest` (in): $10.00/M -> $8.00/M (-20.0%)
+- `~openai/gpt-astra-latest` (out): $50.00/M -> $40.00/M (-20.0%)
+- `qwen/qwen3.5-27b` (out): $2.60/M -> $2.40/M (-7.7%)
 
 ## Nuevos modelos
 
-- `z-ai/glm-5.2:batch` entrada $0.32/M / salida $0.99/M / ctx 1048576
+- `openai/gpt-6.2-astra` entrada $8.00/M / salida $40.00/M / ctx 1050000
+- `openai/gpt-6.2-astra-pro` entrada $8.00/M / salida $40.00/M / ctx 1050000
+- `openai/gpt-6.2-astra-pro:batch` entrada $4.00/M / salida $20.00/M / ctx 1050000
+- `openai/gpt-6.2-astra:batch` entrada $4.00/M / salida $20.00/M / ctx 1050000
+- `openai/gpt-6.2-sol` entrada $2.00/M / salida $10.00/M / ctx 1050000
+- `openai/gpt-6.2-sol-pro` entrada $2.00/M / salida $10.00/M / ctx 1050000
+- `openai/gpt-6.2-sol-pro:batch` entrada $1.00/M / salida $5.00/M / ctx 1050000
+- `openai/gpt-6.2-sol:batch` entrada $1.00/M / salida $5.00/M / ctx 1050000
 
 ## Cambios de contexto
 
-- `nvidia/nemotron-3.5-lightning`: 262,144 -> 1,048,576 tokens
+- `xiaomi/mimo-v2.5-pro`: 1,024,000 -> 262,144 tokens
