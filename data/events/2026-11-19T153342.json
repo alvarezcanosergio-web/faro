@@ -1,0 +1,200 @@
+{
+ "ts": "2026-11-19T153342",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-4-neon",
+   "name": "Google: Gemini 4 Neon",
+   "in": 3.0,
+   "out": 15.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "google/gemini-4-neon:batch",
+   "name": "Google: Gemini 4 Neon (batch)",
+   "in": 1.5,
+   "out": 7.5,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "thinkingmachines/inkling-2-small:free",
+   "name": "Thinking Machines: Inkling 2 Small (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.062,
+   "pct": 3.33
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-0731",
+   "name": "DeepSeek: DeepSeek V4 Flash 0731",
+   "side": "out",
+   "old": 0.18,
+   "new": 0.3,
+   "pct": 66.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "side": "in",
+   "old": 0.036,
+   "new": 0.15,
+   "pct": 316.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.6,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "out",
+   "old": 0.45,
+   "new": 0.16,
+   "pct": -64.44
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "in",
+   "old": 0.7,
+   "new": 0.65,
+   "pct": -7.14
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "moonshotai/kimi-k2.7-code",
+   "name": "MoonshotAI: Kimi K2.7 Code",
+   "side": "out",
+   "old": 3.75,
+   "new": 3.5,
+   "pct": -6.67
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "name": "MoonshotAI: Kimi K3.1 Pro",
+   "side": "in",
+   "old": 0.2403,
+   "new": 0.253,
+   "pct": 5.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "moonshotai/kimi-k3.1-pro",
+   "name": "MoonshotAI: Kimi K3.1 Pro",
+   "side": "out",
+   "old": 8.4023,
+   "new": 8.8,
+   "pct": 4.73
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.195,
+   "pct": -35.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.5-27b",
+   "name": "Qwen: Qwen3.5-27B",
+   "side": "out",
+   "old": 2.4,
+   "new": 1.56,
+   "pct": -35.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 1.4,
+   "new": 1.19,
+   "pct": -15.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 4.4,
+   "new": 3.74,
+   "pct": -15.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "in",
+   "old": 0.007,
+   "new": 0.62,
+   "pct": 8757.14
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.2",
+   "name": "Z.ai: GLM 5.2",
+   "side": "out",
+   "old": 6.8,
+   "new": 2.42,
+   "pct": -64.41
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.036,
+   "new": 0.035,
+   "pct": -2.78
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.15,
+   "pct": -70.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "in",
+   "old": 0.0434,
+   "new": 0.04664,
+   "pct": 7.47
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-v4-flash-latest",
+   "name": "DeepSeek: DeepSeek V4 Flash Latest",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.13992,
+   "pct": -53.36
+  }
+ ],
+ "impacto": null
+}
