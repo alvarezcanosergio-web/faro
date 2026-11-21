@@ -1,0 +1,273 @@
+{
+ "ts": "2026-11-21T142830",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "radixark/daisyrose-27b",
+   "name": "RadixArk: DaisyRose 27B",
+   "in": 0.15,
+   "out": 1.875,
+   "ctx": 262144
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "thinkingmachines/inkling-2-mini",
+   "name": "Thinking Machines: Inkling 2 Mini",
+   "in": 0.1,
+   "out": 0.4,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "dots-studio/dots-3-note-preview:free",
+   "name": "Dots Studio: Dots3-Note Preview (free)",
+   "in": 0.0,
+   "out": 0.0
+  },
+  {
+   "type": "REMOVED",
+   "model": "meituan/longcat-2.0",
+   "name": "Meituan: LongCat 2.0",
+   "in": 0.3,
+   "out": 1.2
+  },
+  {
+   "type": "REMOVED",
+   "model": "tencent/hy3-preview",
+   "name": "Tencent: Hy3 preview",
+   "in": 0.18,
+   "out": 0.6
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "name": "DeepSeek: DeepSeek V3 0324",
+   "side": "in",
+   "old": 0.29,
+   "new": 0.25,
+   "pct": -13.79
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-chat-v3-0324",
+   "name": "DeepSeek: DeepSeek V3 0324",
+   "side": "out",
+   "old": 1.14,
+   "new": 1.0,
+   "pct": -12.28
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-vision-exp",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+   "side": "in",
+   "old": 0.44,
+   "new": 0.2156,
+   "pct": -51.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-flash-vision-exp",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+   "side": "out",
+   "old": 1.32,
+   "new": 0.6468,
+   "pct": -51.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "in",
+   "old": 0.3,
+   "new": 0.0498,
+   "pct": -83.4
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.1992,
+   "pct": -83.4
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "google/gemma-3-27b-it",
+   "name": "Google: Gemma 3 27B",
+   "side": "out",
+   "old": 0.16,
+   "new": 0.45,
+   "pct": 181.25
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "in",
+   "old": 0.09,
+   "new": 0.0675,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "google/gemma-4-26b-a4b-it",
+   "name": "Google: Gemma 4 26B A4B ",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.225,
+   "pct": -25.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.295,
+   "new": 0.27,
+   "pct": -8.47
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 1.2,
+   "new": 0.95,
+   "pct": -20.83
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.7",
+   "name": "MiniMax: MiniMax M2.7",
+   "side": "in",
+   "old": 0.21,
+   "new": 0.6,
+   "pct": 185.71
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.7",
+   "name": "MiniMax: MiniMax M2.7",
+   "side": "out",
+   "old": 0.84,
+   "new": 1.8,
+   "pct": 114.29
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "side": "in",
+   "old": 0.075,
+   "new": 0.15,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m3.1-flash",
+   "name": "MiniMax: MiniMax M3.1 Flash",
+   "side": "out",
+   "old": 0.3,
+   "new": 0.6,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "nvidia/nemotron-3.5-super-vl",
+   "name": "NVIDIA: Nemotron 3.5 Super VL",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.47,
+   "pct": -6.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "in",
+   "old": 0.018,
+   "new": 0.017,
+   "pct": -5.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "openai/gpt-oss-20b",
+   "name": "OpenAI: gpt-oss-20b",
+   "side": "out",
+   "old": 0.09,
+   "new": 0.085,
+   "pct": -5.56
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-coder-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.07,
+   "pct": -53.33
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3-coder-30b-a3b-instruct",
+   "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+   "side": "out",
+   "old": 0.6,
+   "new": 0.28,
+   "pct": -53.33
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "xiaomi/mimo-v2.6-flash",
+   "name": "Xiaomi: MiMo-V2.6-Flash",
+   "old": 1050000,
+   "new": 1048576
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "xiaomi/mimo-v2.6-pro",
+   "name": "Xiaomi: MiMo-V2.6-Pro",
+   "old": 1050000,
+   "new": 1048576
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "in",
+   "old": 1.19,
+   "new": 1.4,
+   "pct": 17.65
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-5.1",
+   "name": "Z.ai: GLM 5.1",
+   "side": "out",
+   "old": 3.74,
+   "new": 4.4,
+   "pct": 17.65
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "in",
+   "old": 0.165,
+   "new": 0.0999,
+   "pct": -39.45
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-pro-latest",
+   "name": "DeepSeek: DeepSeek Pro Latest",
+   "side": "out",
+   "old": 0.495,
+   "new": 8.0,
+   "pct": 1516.16
+  }
+ ],
+ "impacto": null
+}
