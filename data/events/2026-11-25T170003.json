@@ -1,0 +1,222 @@
+{
+ "ts": "2026-11-25T170003",
+ "events": [
+  {
+   "type": "NEW_MODEL",
+   "model": "upstage/solar-mini-4-5",
+   "name": "Upstage: Solar Mini 4.5 (Preview)",
+   "in": 0.01,
+   "out": 0.04,
+   "ctx": 524288
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "upstage/solar-pro-4-contributor",
+   "name": "Upstage: Solar Pro 4 Contributor",
+   "in": 0.09,
+   "out": 0.36,
+   "ctx": 524288
+  },
+  {
+   "type": "NEW_MODEL",
+   "model": "xiaomi/mimo-v2.6-flash-mopd",
+   "name": "Xiaomi: MiMo-V2.6-Flash-MOPD",
+   "in": 0.5,
+   "out": 1.0,
+   "ctx": 1048576
+  },
+  {
+   "type": "REMOVED",
+   "model": "xiaomi/mimo-v2.5",
+   "name": "Xiaomi: MiMo-V2.5",
+   "in": 0.4,
+   "out": 2.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-vision-exp",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+   "side": "in",
+   "old": 0.2156,
+   "new": 0.44,
+   "pct": 104.08
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4-flash-vision-exp",
+   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+   "side": "out",
+   "old": 0.6468,
+   "new": 1.32,
+   "pct": 104.08
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "in",
+   "old": 1.28,
+   "new": 0.777524,
+   "pct": -39.26
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "deepseek/deepseek-v4-pro",
+   "name": "DeepSeek: DeepSeek V4 Pro 0423",
+   "side": "out",
+   "old": 2.56,
+   "new": 1.5852,
+   "pct": -38.08
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.15,
+   "pct": 400.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "deepseek/deepseek-v4.1-flash-1017",
+   "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.6,
+   "pct": 200.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "in",
+   "old": 0.27,
+   "new": 0.3,
+   "pct": 11.11
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "side": "out",
+   "old": 0.95,
+   "new": 1.2,
+   "pct": 26.32
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "minimax/minimax-m2.5",
+   "name": "MiniMax: MiniMax M2.5",
+   "old": 198000,
+   "new": 65536
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "nvidia/nemotron-3.5-lightning",
+   "name": "NVIDIA: Nemotron 3.5 Lightning",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.07,
+   "pct": 40.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-35b-a3b",
+   "name": "Qwen: Qwen3.6 35B A3B",
+   "side": "in",
+   "old": 0.05,
+   "new": 0.1,
+   "pct": 100.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "qwen/qwen3.6-35b-a3b",
+   "name": "Qwen: Qwen3.6 35B A3B",
+   "side": "out",
+   "old": 0.7,
+   "new": 0.89,
+   "pct": 27.14
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "in",
+   "old": 0.06,
+   "new": 0.035,
+   "pct": -41.67
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "qwen/qwen3.8-27b",
+   "name": "Qwen: Qwen3.8 27B",
+   "side": "out",
+   "old": 1.96,
+   "new": 1.5,
+   "pct": -23.47
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.5-air",
+   "name": "Z.ai: GLM 4.5 Air",
+   "side": "in",
+   "old": 0.13,
+   "new": 0.14,
+   "pct": 7.69
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "z-ai/glm-4.5-air",
+   "name": "Z.ai: GLM 4.5 Air",
+   "side": "out",
+   "old": 0.85,
+   "new": 0.86,
+   "pct": 1.18
+  },
+  {
+   "type": "CONTEXT_CHANGE",
+   "model": "z-ai/glm-4.7-flash",
+   "name": "Z.ai: GLM 4.7 Flash",
+   "old": 200000,
+   "new": 131072
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "in",
+   "old": 0.15,
+   "new": 0.12,
+   "pct": -20.0
+  },
+  {
+   "type": "PRICE_DOWN",
+   "model": "z-ai/glm-5.3-flash",
+   "name": "Z.ai: GLM 5.3 Flash",
+   "side": "out",
+   "old": 0.5,
+   "new": 0.38,
+   "pct": -24.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "in",
+   "old": 0.03,
+   "new": 0.036,
+   "pct": 20.0
+  },
+  {
+   "type": "PRICE_UP",
+   "model": "~deepseek/deepseek-flash-latest",
+   "name": "DeepSeek: DeepSeek Flash Latest",
+   "side": "out",
+   "old": 0.2,
+   "new": 0.5,
+   "pct": 150.0
+  }
+ ],
+ "impacto": null
+}
