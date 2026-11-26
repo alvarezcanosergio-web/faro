@@ -1,45 +1,46 @@
 # FARO - Alertas de tarifas LLM
 
-Ultima vigilancia: **2026-11-25T170003 UTC** | Modelos vigilados: **472**
+Ultima vigilancia: **2026-11-26T164133 UTC** | Modelos vigilados: **476**
 
-**Resumen:** 13 subidas | 6 bajadas | 3 lanzamientos | 1 retiradas | 2 cambios de contexto
+**Resumen:** 12 subidas | 3 bajadas | 7 lanzamientos | 3 retiradas | 1 cambios de contexto
 
 ## Subidas de precio
 
-- **`deepseek/deepseek-v4.1-flash-1017`** (in): $0.03/M -> $0.15/M (**+400.0%**)
-- **`deepseek/deepseek-v4.1-flash-1017`** (out): $0.20/M -> $0.60/M (**+200.0%**)
-- **`~deepseek/deepseek-flash-latest`** (out): $0.20/M -> $0.50/M (**+150.0%**)
-- **`deepseek/deepseek-v4-flash-vision-exp`** (in): $0.22/M -> $0.44/M (**+104.1%**)
-- **`deepseek/deepseek-v4-flash-vision-exp`** (out): $0.65/M -> $1.32/M (**+104.1%**)
-- **`qwen/qwen3.6-35b-a3b`** (in): $0.05/M -> $0.10/M (**+100.0%**)
-- **`nvidia/nemotron-3.5-lightning`** (in): $0.05/M -> $0.07/M (**+40.0%**)
-- **`qwen/qwen3.6-35b-a3b`** (out): $0.70/M -> $0.89/M (**+27.1%**)
-- **`minimax/minimax-m2.5`** (out): $0.95/M -> $1.20/M (**+26.3%**)
-- **`~deepseek/deepseek-flash-latest`** (in): $0.03/M -> $0.04/M (**+20.0%**)
-- **`minimax/minimax-m2.5`** (in): $0.27/M -> $0.30/M (**+11.1%**)
-- **`z-ai/glm-4.5-air`** (in): $0.13/M -> $0.14/M (**+7.7%**)
-- **`z-ai/glm-4.5-air`** (out): $0.85/M -> $0.86/M (**+1.2%**)
+- **`google/gemma-3-27b-it`** (out): $0.16/M -> $0.45/M (**+181.2%**)
+- **`qwen/qwen3.8-27b`** (in): $0.04/M -> $0.06/M (**+71.4%**)
+- **`z-ai/glm-4.5-air`** (in): $0.14/M -> $0.20/M (**+42.9%**)
+- **`z-ai/glm-5.3-flash`** (out): $0.38/M -> $0.50/M (**+31.6%**)
+- **`qwen/qwen3.8-27b`** (out): $1.50/M -> $1.96/M (**+30.7%**)
+- **`z-ai/glm-4.5-air`** (out): $0.86/M -> $1.10/M (**+27.9%**)
+- **`z-ai/glm-5.3-flash`** (in): $0.12/M -> $0.15/M (**+25.0%**)
+- **`qwen/qwen3.5-397b-a17b`** (out): $3.00/M -> $3.60/M (**+20.0%**)
+- **`reflection/beam-1.0-501b-a23b`** (in): $0.25/M -> $0.30/M (**+20.0%**)
+- **`qwen/qwen3.5-397b-a17b`** (in): $0.45/M -> $0.50/M (**+11.1%**)
+- **`~deepseek/deepseek-pro-latest`** (in): $0.10/M -> $0.11/M (**+11.1%**)
+- **`deepseek/deepseek-v4-pro`** (in): $0.78/M -> $0.80/M (**+3.0%**)
 
 ## Bajadas de precio (oportunidades)
 
-- `qwen/qwen3.8-27b` (in): $0.06/M -> $0.04/M (-41.7%)
-- `deepseek/deepseek-v4-pro` (in): $1.28/M -> $0.78/M (-39.3%)
-- `deepseek/deepseek-v4-pro` (out): $2.56/M -> $1.59/M (-38.1%)
-- `z-ai/glm-5.3-flash` (out): $0.50/M -> $0.38/M (-24.0%)
-- `qwen/qwen3.8-27b` (out): $1.96/M -> $1.50/M (-23.5%)
-- `z-ai/glm-5.3-flash` (in): $0.15/M -> $0.12/M (-20.0%)
+- `qwen/qwen3.5-9b` (in): $0.17/M -> $0.10/M (-41.2%)
+- `~deepseek/deepseek-pro-latest` (out): $5.00/M -> $4.44/M (-11.2%)
+- `deepseek/deepseek-v4-pro` (out): $1.59/M -> $1.56/M (-1.6%)
 
 ## Nuevos modelos
 
-- `upstage/solar-mini-4-5` entrada $0.01/M / salida $0.04/M / ctx 524288
-- `upstage/solar-pro-4-contributor` entrada $0.09/M / salida $0.36/M / ctx 524288
-- `xiaomi/mimo-v2.6-flash-mopd` entrada $0.50/M / salida $1.00/M / ctx 1048576
+- `inclusionai/lingsante-3.1-air-vl` entrada $0.06/M / salida $0.18/M / ctx 131072
+- `mistralai/codestral-2508:batch` entrada $0.15/M / salida $0.45/M / ctx 256000
+- `mistralai/ministral-8b-2512:batch` entrada $0.07/M / salida $0.07/M / ctx 262144
+- `mistralai/mistral-large-2512:batch` entrada $0.25/M / salida $0.75/M / ctx 262144
+- `mistralai/mistral-small-2603:batch` entrada $0.07/M / salida $0.30/M / ctx 262144
+- `moonshotai/kimi-k2` entrada $0.57/M / salida $2.30/M / ctx 131072
+- `tngtech/deepseek-r1t2-chimera` entrada $1.00/M / salida $2.62/M / ctx 131072
 
 ## Modelos retirados
 
-- `xiaomi/mimo-v2.5`
+- `unbiased/pareto-26.10`
+- `unbiased/pareto-26.10-preview`
+- `unbiased/pareto-26.9`
 
 ## Cambios de contexto
 
-- `minimax/minimax-m2.5`: 198,000 -> 65,536 tokens
-- `z-ai/glm-4.7-flash`: 200,000 -> 131,072 tokens
+- `~unbiased/pareto-latest`: 1,048,576 -> 262,144 tokens
